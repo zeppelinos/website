@@ -22,7 +22,7 @@ body {
 .jumbotron {
 	text-align: center;
 	background-color: transparent;
-	padding: 10% 0 8% 0;
+	padding: 10% 0 0% 0;
 }
 
 footer {
@@ -111,7 +111,7 @@ h3 {
 
 
 .learn-more {
-	margin-right: 35px;
+	margin-right: 25px;
 }
 
 .form-control {
@@ -119,7 +119,7 @@ h3 {
 	background: #FFFFFF;
 	border: 1px solid #D0D3D7;
 	border-radius: 9.23px 0 0 9.23px;
-	min-width: 300px;
+	min-width: 200px;
 	color: #4B6178;
 	border-radius: 5px;
 	height: 39px;
