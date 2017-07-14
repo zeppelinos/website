@@ -31,6 +31,10 @@ footer {
 	text-align: right;
 }
 
+footer p:first-child {
+  float: left;
+}
+
 @media (min-width: 1350px) {
 	.container {
 		width: 990px;
@@ -39,9 +43,12 @@ footer {
 
 @media (max-width: 500px) {
 	footer p {
-		text-align: left;
+		text-align: center;
 		line-height: 1.5 !important;
 	}
+  footer p:first-child {
+    float: none;
+  }
 }
 
 .jumbotron p {
@@ -70,6 +77,10 @@ footer p {
 	font-size: 12px;
 	color: #4B6178;
 	line-height: 1;
+}
+
+footer p a {
+  color: #4B6178;
 }
 
 .padding {
@@ -121,19 +132,19 @@ h3 {
 
 
 @media (max-width: 1020px) {
-	
+
 	.brand img {
 		width: 300px;
 	}
-	
+
 	.padding .pull-left {
 		float: none !important;
 	}
-	
+
 	.padding img {
 		margin-top: 3rem;
 	}
-	
+
 }
 
 @media (max-width: 690px) {
@@ -141,7 +152,7 @@ h3 {
 		margin-right: 0;
 		margin-bottom: 30px;
 	}
-	
+
 	.form-control {
 		min-width: 0;
 	}
