@@ -94,10 +94,39 @@ footer p a {
 	font-size: 15px;
 	background: #00B7E5;
 	font-weight: 700;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-primary:hover {
 	background: #4B6178;
+}
+
+.btn-ghost {
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  background: transparent;
+  color: #00B7E5;
+  border-color: #00B7E5;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.btn-ghost:hover {
+  color: #FFFFFF;
+  background-color: #4B6178;
+  border-color: #4B6178;
+}
+
+.btn.btn-ghost:focus {
+  background-color: #286090;
+  border-color: #286090;
+  color: #FFFFFF;
+}
+
+.btn.btn-ghost:active {
+  background-color: #204d74;
+  border-color: #204d74;
+  color: #FFFFFF;
 }
 
 a:hover {
@@ -108,7 +137,6 @@ h3 {
 	color: #909EAC;
 	font-weight: 300;
 }
-
 
 .learn-more {
 	margin-right: 25px;
