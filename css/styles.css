@@ -32,6 +32,10 @@ footer {
 }
 
 footer p:first-child {
+  float: right;
+}
+
+footer p:last-child {
   float: left;
 }
 
@@ -46,7 +50,7 @@ footer p:first-child {
 		text-align: center;
 		line-height: 1.5 !important;
 	}
-  footer p:first-child {
+  footer p:first-child, footer p:last-child {
     float: none;
   }
 }
@@ -84,7 +88,7 @@ footer p a {
 }
 
 .padding {
-	padding: 5% 30px;
+	padding: 0 30px;
 	text-align: center;
 }
 
@@ -93,7 +97,7 @@ footer p a {
 	border: 0;
 	font-size: 15px;
 	background: #00B7E5;
-	font-weight: 700;
+	font-weight: 500;
   transition: all 0.2s ease-in-out;
 }
 
@@ -104,10 +108,10 @@ footer p a {
 .btn-ghost {
   border-radius: 5px;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 500;
   background: transparent;
-  color: #00B7E5;
-  border-color: #00B7E5;
+  color: #4b6178;
+  border-color: #4b6178;
   transition: all 0.2s ease-in-out;
 }
 
@@ -136,6 +140,7 @@ a:hover {
 h3 {
 	color: #909EAC;
 	font-weight: 300;
+  font-size: 22px;
 }
 
 .learn-more {
@@ -178,12 +183,22 @@ h3 {
 @media (max-width: 690px) {
 	.learn-more {
 		margin-right: 0;
-		margin-bottom: 30px;
+		margin-bottom: 35px;
 	}
 
 	.form-control {
 		min-width: 0;
+    height: 46px;
+    font-size: 20px;
 	}
+
+  .btn.btn-lg {
+    font-size: 20px;
+  }
+
+  .jumbotron {
+    margin-top: 80px;
+  }
 }
 
 
