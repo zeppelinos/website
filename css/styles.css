@@ -157,12 +157,12 @@ h3 {
 	border-radius: 5px;
 	height: 39px;
 	font-weight: 300;
+  font-size: 15px;
 }
 
 .form-control::placeholder {
 	color: #909EAC;
 }
-
 
 @media (max-width: 1020px) {
 
@@ -184,20 +184,22 @@ h3 {
 	.learn-more {
 		margin-right: 0;
 		margin-bottom: 35px;
+    height: 48px;
 	}
 
 	.form-control {
 		min-width: 0;
-    height: 46px;
+    height: 48px;
     font-size: 20px;
 	}
 
   .btn.btn-lg {
     font-size: 20px;
+    height: 48px;
   }
 
   .jumbotron {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 }
 
