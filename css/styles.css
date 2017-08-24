@@ -23,6 +23,7 @@ body {
 	text-align: center;
 	background-color: transparent;
 	padding: 10% 0 0% 0;
+  margin-bottom: 7px;
 }
 
 footer {
@@ -146,16 +147,12 @@ h3 {
   width: 70%;
 }
 
-.learn-more {
-	margin-right: 25px;
-}
-
 .form-control {
 	box-shadow: none;
 	background: #FFFFFF;
 	border: 1px solid #D0D3D7;
 	border-radius: 9.23px 0 0 9.23px;
-	min-width: 200px;
+	min-width: 330px;
 	color: #4B6178;
 	border-radius: 5px;
 	height: 39px;
@@ -165,6 +162,19 @@ h3 {
 
 .form-control::placeholder {
 	color: #909EAC;
+}
+
+.info-links {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.info-links > span {
+  margin: 0 10px;
+  display: inline-block;
 }
 
 @media (max-width: 1020px) {
@@ -193,11 +203,11 @@ h3 {
 	.form-control {
 		min-width: 0;
     height: 48px;
-    font-size: 19px;
+    font-size: 17px;
 	}
 
   .btn.btn-lg {
-    font-size: 19px;
+    font-size: 17px;
     height: 48px;
   }
 
