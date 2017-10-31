@@ -564,7 +564,7 @@ h3 {
 }
 
 .whitepaper .container {
-    padding: 200px 30px 120px 30px;
+    padding: 0px 30px 60px 30px;
 }
 
 .whitepaper .comilla {
@@ -1081,7 +1081,7 @@ footer .copyright {
         margin: -57px 0 0 0
     }
     .whitepaper .container {
-        padding: 180px 25px 120px 25px;
+        padding: 0px 25px 60px 25px;
     }
     .whitepaper .comillas-text {
         padding: 0px 130px;
