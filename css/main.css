@@ -475,6 +475,11 @@ h3 {
     margin-top: -10px;
 }
 
+.token .detail .detail-item.item1 .main-image {
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
 .token .detail .detail-item.item2 {
     margin-top: 82px;
 }
@@ -564,7 +569,7 @@ h3 {
 }
 
 .whitepaper .container {
-    padding: 0px 30px 60px 30px;
+    padding: 0px 30px 108px 30px;
 }
 
 .whitepaper .comilla {
@@ -592,7 +597,7 @@ h3 {
 }
 
 .whitepaper img.paper {
-    margin-top: 15px;
+    margin-top: 128px;
 }
 
 .whitepaper .paper-text {
@@ -654,9 +659,9 @@ footer .social img {
 }
 
 footer .copyright {
-    margin-top: 115px;
+    margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 64px;
     color: #95989A;
 }
 
@@ -677,6 +682,9 @@ footer .copyright {
 }
 
 .no-mobile-inline {
+    display: none !important;
+}
+.just-tablet {
     display: none !important;
 }
 
@@ -723,6 +731,9 @@ footer .copyright {
     .no-desktop-small {
         display: inherit !important;
     }
+    .just-tablet {
+        display: none !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -733,11 +744,21 @@ footer .copyright {
         max-width: 560px;
     }
     .what-is .main-img {
-        width: 140%;
+        width: 100%;
+    }
+    .just-tablet {
+        display: inherit !important;
+    }
+    .token .detail .detail-item.item1 .main-image {
+        margin-left: -24px;
+        margin-right: 24px;
     }
 }
 
 @media (min-width: 980px) {
+    .just-tablet {
+        display: none !important;
+    }
     .no-mobile {
         display: inherit !important;
     }
@@ -988,6 +1009,10 @@ footer .copyright {
         position: relative;
         padding: 50px 117px 0px 123px;
     }
+    .token .detail .detail-item.item1 .main-image {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .token .detail .detail-item.item2 {
         margin-top: -10px;
         padding-left: 114px;
@@ -1081,7 +1106,7 @@ footer .copyright {
         margin: -57px 0 0 0
     }
     .whitepaper .container {
-        padding: 0px 25px 60px 25px;
+        padding: 0px 25px 115px 25px;
     }
     .whitepaper .comillas-text {
         padding: 0px 130px;
@@ -1108,8 +1133,7 @@ footer .copyright {
         margin-left: -3px;
     }
     .whitepaper .content-whitepaper {
-        margin-top: 65px;
-        margin-left: -47px;
+        margin-top: 0px;
         display: inline-block;
     }
     .newsletter {
