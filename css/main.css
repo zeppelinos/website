@@ -242,7 +242,7 @@ h3 {
     border: 1px solid #a1a3a5;
     border-radius: 2px;
     border-radius: 2px;
-    width: 42%;
+    width: 40%;
     display: inline-block;
     text-align: center;
     padding: 6px;
@@ -261,7 +261,7 @@ h3 {
     font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
     padding-bottom: 3px;
     padding-left: 0px;
-    width: 45%;
+    width: 40%;
     letter-spacing: 0px;
     background: transparent;
 }
@@ -659,10 +659,11 @@ footer .social img {
 }
 
 footer .copyright {
-    margin-top: 0px;
+    margin-top: 50px;
     margin-bottom: 0px;
     padding-bottom: 64px;
     color: #95989A;
+    font-size: 15px;
 }
 
 .desktop-nav {
