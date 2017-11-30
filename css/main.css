@@ -177,6 +177,7 @@ header .icon-bar {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: 1440px auto;
+    margin: 0 auto;
 }
 
 .hero .container {
