@@ -125,6 +125,10 @@ body {
 
 .main-section {}
 
+.projects.main-section {
+    background-color: #F8F8F9;
+}
+
 .labs {
     height: 48px;
     text-align: center;
@@ -137,14 +141,14 @@ body {
 .labs .first, .labs .second {
     display: none;
 }
-.labs a.link {
+.labs .link {
     font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
     padding: 3px;
     cursor: pointer;
     text-decoration: none;
     color: #fff;
 }
-.labs a.link:hover {
+.labs .link:hover {
     padding: 3px;
 }
 
@@ -205,7 +209,7 @@ header .icon-bar {
 }
 
 .hero .container {
-    padding: 0 20px;
+    padding: 0 20px 100px 20px;
 }
 
 .mobile-nav {
@@ -295,7 +299,11 @@ h3 {
     padding: 96px 30px 80px 30px;
 }
 
-.problem h3 {
+.projects .container {
+    padding: 45px 30px;
+}
+
+.problem h3, .projects h3 {
     margin-top: -8px;
 }
 
@@ -304,7 +312,17 @@ h3 {
     margin-top: 53px;
 }
 
-.problem .detail h4 {
+.projects .detail {
+    text-align: center;
+}
+
+.projects .detail-item {
+    display: inline-block;
+    width: 32%;
+    margin-top: 10px;
+}
+
+.problem .detail h4, .projects .detail h4 {
     font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
     font-size: 17px;
     line-height: 28px;
@@ -313,8 +331,17 @@ h3 {
     margin-bottom: 13px;
 }
 
+.projects .detail h4 {
+    color: #95989A;
+    margin-top: 0;
+}
+
 .detail-container {
     margin-top: 35px;
+}
+
+.projects .detail-container {
+    margin-top: 15px;
 }
 
 .detail-item h5 {
@@ -768,6 +795,15 @@ footer .copyright {
     }
 }
 
+@media (min-width: 710px) {
+    .separador.no-mobile {
+        display: none !important;
+    }
+    .separador.just-tablet {
+        display: inherit !important;
+    }
+}
+
 @media (min-width: 768px) {
     .no-mobile {
         display: none !important;
@@ -793,6 +829,9 @@ footer .copyright {
     }
     .no-mobile {
         display: inherit !important;
+    }
+    .no-tablet {
+        display: none !important;
     }
     .no-mobile-inline {
         display: inline-block !important;
@@ -852,31 +891,34 @@ footer .copyright {
     .form input.form-button {
         width: 165px;
     }
-    .problem {
+    .projects .container {
+        padding: 60px 0px;
+    }
+    .problem, .projects {
         text-align: center;
     }
     .problem .container {
         padding: 40px 0px 80px 0px;
     }
-    .problem h3 {
+    .problem h3, .projects h3 {
         margin-top: -6px;
         padding: 0px 110px;
     }
-    .problem .detail {
+    .problem .detail, .projetcs .detail {
         text-align: center;
         margin-top: 52px;
     }
-    .problem .detail h4 {
+    .problem .detail h4, .projects .detail h4 {
         margin-bottom: 15px;
     }
-    .problem .separador {
+    .problem .separador, .projects .separador {
         width: 724px;
         margin-left: 112px;
     }
     .detail-container {
         margin-top: -20px;
     }
-    .problem .detail-item {
+    .problem .detail-item, .projects .detail-item {
         width: 242px;
         margin-top: 62px;
         display: inline-block;
@@ -885,51 +927,76 @@ footer .copyright {
         padding: 0px;
         box-sizing: border-box;
     }
+    .projects .detail-item {
+        margin-top: 0px;
+        width: 82px;
+    }
     .problem .detail-item.item1 img {
         margin-left: -30px;
+    }
+    .projects .detail-item.item1 img {
+        margin-left: -78px;
     }
     .problem .detail-item.item2 img {
         margin-left: -46px;
     }
-    .problem .detail-item.item2 h5 {
+    .projects .detail-item.item2 img {
+        margin-left: -60px;
+    }
+    .problem .detail-item.item2 h5, .projects .detail-item.item2 h5 {
         width: 100px;
     }
-    .problem .detail-item.item2 p {
+    .problem .detail-item.item2 p, .projects .detail-item.item2 p {
         margin-top: -14px;
         padding-right: 17px;
     }
     .problem .detail-item.item3 img {
         margin-left: -20px;
     }
-    .problem .detail-item.item3 h5 {
+    .projects .detail-item.item3 img {
+        margin-left: -55px;
+    }
+    .problem .detail-item.item3 h5, .projects .detail-item.item3 h5 {
         width: 100px;
     }
-    .problem .detail-item.item3 p {
+    .problem .detail-item.item3 p, .projects .detail-item.item3 p {
         margin-top: -14px;
     }
     .problem .detail-item.item4 img {
         margin-left: -30px;
     }
-    .problem .detail-item.item4 h5 {
+    .projects .detail-item.item4 img {
+        margin-left: -60px;
+    }
+    .projects .detail-item.item5 img {
+        margin-left: -25px;
+    }
+    .projects .detail-item.item6 img {
+        margin-left: -10px;
+    }
+    .projects .detail-item.item7 img {
+        margin-left: -20px;
+    }
+    .problem .detail-item.item4 h5, .projects .detail-item.item4 h5 {
         width: 200px;
     }
-    .problem .detail-item.item4 p {
+    .problem .detail-item.item4 p, .projects .detail-item.item4 p {
         margin-top: -14px;
     }
-    .problem .detail-item.item2 {
+    .problem .detail-item.item2, .projects .detail-item.item2 {
         padding-left: 7px;
     }
-    .problem .detail-item.item3 {
+    .problem .detail-item.item3, .projects .detail-item.item3 {
         padding-left: 13px;
     }
-    .problem .detail-item.item3.item4 {
+    .problem .detail-item.item3.item4, .projects .detail-item.item4 {
         padding-left: 22px;
     }
-    .problem .detail-item h5 {
+    .problem .detail-item h5, .projects .detail-item h5 {
         text-align: left;
         margin-top: 12px;
     }
-    .problem .detail-item p {
+    .problem .detail-item p, .projects .detail-item p {
         text-align: left;
         margin-top: 42px;
         padding: 0px 15px 0px 0px;
@@ -1177,6 +1244,23 @@ footer .copyright {
     .newsletter h3 {
         margin-top: -8px;
         padding: 0px 320px;
+    }
+}
+
+@media (max-width: 980px) {
+    .projects .detail-item.item1, .projects .detail-item.item2, .projects .detail-item.item3 {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 980px) and (min-width: 710px) {
+    .separador.no-desktop {
+        display: none !important;
+    }
+}
+@media (max-width: 980px) and (min-width: 768px) {
+    .projects .detail-item {
+        width: 19%;
     }
 }
 

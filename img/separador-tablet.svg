@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="815.5 1064 499 35.422">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #95989a;
+      }
+    </style>
+  </defs>
+  <g id="separador" transform="translate(1347 1064) rotate(90)">
+    <path id="linea" class="cls-1" d="M17.828,0H0V498H17.828" transform="translate(17.594 33)"/>
+    <line id="Line_7" data-name="Line 7" class="cls-1" x1="17.5" transform="translate(0 281.82)"/>
+  </g>
+</svg>
