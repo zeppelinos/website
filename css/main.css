@@ -123,7 +123,9 @@ body {
     margin: 0 auto;
 }
 
-.main-section {}
+.top-section {
+    margin-top: 40px;
+}
 
 .projects.main-section {
     background-color: #F8F8F9;
@@ -137,6 +139,10 @@ body {
     font-size: 18px;
     color: #fff;
     line-height: 48px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1;
 }
 .labs .first, .labs .second {
     display: none;
@@ -741,6 +747,29 @@ footer .copyright {
     display: none !important;
 }
 
+a.calltoaction {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto-Light", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid #a1a3a5;
+    border-radius: 2px;
+    border-radius: 2px;
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    padding: 6px;
+    background: #fff;
+    vertical-align: unset;
+    cursor: pointer;
+    width: 140px;
+}
+
 @media (min-width: 370px) {
     h2 {
         font-size: 34px;
@@ -786,6 +815,9 @@ footer .copyright {
     }
     .just-tablet {
         display: none !important;
+    }
+    .labs .second {
+        display: inline-block;
     }
 }
 
