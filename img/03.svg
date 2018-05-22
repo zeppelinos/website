@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="53px" viewBox="0 0 55 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.5709158%" y1="27.3177054%" x2="69.0182356%" y2="72.6819921%" id="linearGradient-1">
+            <stop stop-color="#5B8EE4" offset="0%"></stop>
+            <stop stop-color="#67E9EB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="zOS-web-02" transform="translate(-960.000000, -1230.000000)" fill="url(#linearGradient-1)">
+            <g id="Group" transform="translate(960.000000, 1230.000000)">
+                <path d="M36.5778831,0.226722222 L54.9920161,19.0324359 L32.814375,41.6820085 L19.2003226,27.7781154 L20.863629,26.0791709 L32.814375,38.2845726 L51.6651815,19.0324359 L36.5781048,3.62393162 L30.2333669,10.1037479 L28.5698387,8.40525641 L36.5778831,0.226722222 Z M0,34.185906 L22.1774194,11.5361068 L35.7752823,25.4234658 L34.1119758,27.1221838 L22.1774194,14.9337692 L3.3266129,34.185906 L18.4136895,49.5941838 L24.7029839,43.1712179 L26.3660685,44.8699359 L18.4136895,52.9916197 L0,34.185906 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

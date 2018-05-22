@@ -1,7 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>zeppelin_os</title>
@@ -9,300 +8,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="5wYcATaYgOC-5kYy3F7_XQe383nVhrPA-5rVKUUD0Oo" />
     <link rel="icon" type="image/png" href="img/favicon64x64.png">
-<!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"/><![endif]-->
-    <link rel="apple-touch-icon" href="icon.png">
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css?v=4">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
 
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-102575245-1', 'auto');
-        ga('send', 'pageview');
+      ga('create', 'UA-102575245-1', 'auto');
+      ga('send', 'pageview');
     </script>
     <meta name="msvalidate.01" content="9D58B02B8E02D6522AD2508D3AB3CCAF" />
-</head>
+  </head>
 
-<body>
-    <a href="https://blog.zeppelinos.org/announcing-zeppelin_os-labs?utm_source=site&utm_medium=organic&utm_campaign=header" onclick="ga('send', 'event', 'Outgoing Links', 'https://blog.zeppelinos.org/announcing-zeppelin_os-labs', '/');" target="_blank">
-        <div class="labs">
-            <span class="first">Help us build the future of smart contract infrastructure.</span> <span class="second">Contribute to</span> <span class="link">zeppelin_os labs ▶</span>
+  <body>
+    <nav class="row">
+      <div class="nav-wrapper col s12 offset-s0 m10 offset-m1 l8 offset-l2">
+        <a href="#!" class="brand-logo">
+          <img src="./img/logo_zeppelin.svg" />
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">Whitepaper</a></li>
+          <li><a href="badges.html">Docs</a></li>
+          <li><a href="collapsible.html">Blog</a></li>
+          <li><a class="red-button">GET STARTED</a></li>
+        </ul>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="sass.html">Whitepaper</a></li>
+          <li><a href="badges.html">Docs</a></li>
+          <li><a href="collapsible.html">Blog</a></li>
+          <li><a class="red-button">GET STARTED</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="row hero">
+      <div class="col s12 offset-s0 m10 offset-m1 l8 offset-l2">
+        <div class="col l6">
+          <h1>Develop and operate any smart contract application securely</h1>
+          <p class="first-p">Running software on blockchains is often complex, time-consuming and prone to errors – but it need not be. ZeppelinOS is an operating system designed specifically for smart contracts.</p>
+          <a class="red-button">GET STARTED</a>
+          <p class="second-p">ZeppelinOS runs on all EVM and eWASM-powered blockchains. It provides an on-chain set of upgradeable standard libraries, and an incentive structure to continually upgrade and patch itself.</p>
         </div>
-    </a>
-    <header class="top-section">
-        <div class="container">
-            <img class="logo" src="img/logo.svg" alt="zepplin_os"/>
-            <section class="icon-bar">
-                <div class="menu-bar" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                </div>
-            </section>
-            <nav class="desktop-nav">
-                <a href="/zeppelin_os_whitepaper.pdf" onclick="ga('send', 'event', 'Outgoing Links', '/zeppelin_os_whitepaper.pdf', '/');" target="_blank">whitepaper</a>
-                <a href="https://github.com/zeppelinos" target="_blank">github</a>
-                <a href="https://blog.zeppelinos.org/?utm_source=site&utm_medium=organic&utm_campaign=menu" onclick="ga('send', 'event', 'Outgoing Links', 'https://blog.zeppelinos.org/', '/');" target="_blank">blog</a>
-            </nav>
+        <div class="col l6 right-aligned img-container">
+          <img src="./img/img_hero.svg">
         </div>
-    </header>
-    <section class="hero main-section">
-        <div class="hero-img-bkg">
-            <div class="container">
-                <nav class="mobile-nav">
-                    <a href="/zeppelin_os_whitepaper.pdf" onclick="ga('send', 'event', 'Outgoing Links', '/zeppelin_os_whitepaper.pdf', '/');" target="_blank">whitepaper</a>
-                    <a href="https://blog.zeppelinos.org/?utm_source=site&utm_medium=organic&utm_campaign=header" onclick="ga('send', 'event', 'Outgoing Links', 'https://blog.zeppelinos.org/', '/');" target="_blank">blog</a>
-                    <a href="https://github.com/zeppelinos" target="_blank">github</a>
-                    <a href="https://twitter.com/zeppelin_OS" target="_blank">twitter</a>
-                </nav>
-                <img class="hero_img" src="img/hero.svg" alt="open zeppelin" />
-                <div class="hero-inside">
-                    <h2>Securely develop and manage <br class="no-desktop-small">any smart contract application</h2>
-                    <h3>zeppelin_os is an open-source, distributed platform of tools and services on top of the EVM to develop and manage smart contract applications securely.</h3>
-                    <section class="form">
-                        <form action="//solutions.us8.list-manage.com/subscribe/post?u=6b769ee0293207617c49cd801&amp;id=1ec499e5af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-                            <input required class="form-email" type="email" placeholder="your email here" name="EMAIL" id="mce-EMAIL" />
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6b769ee0293207617c49cd801_1ec499e5af" tabindex="-1" value=""></div>
-                            <input class="form-button" type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe"/>
-                        </form>
-                    </section>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
-    <section class="projects main-section">
-        <div class="container">
-            <div class="detail">
-                <h4>Projects building on zeppelin_os</h4>
-                <img class="separador no-desktop" src="img/separador2-mobile.svg" alt="selector" />
-                <img class="separador just-tablet" src="img/separador-tablet.svg" alt="selector" />
-                <img class="separador no-mobile" src="img/separador2-dekstop.svg" alt="selector" />
-                <div class="detail-container">
-                    <div class="detail-item item1">
-                        <img src="img/projects/01-RCN.png" alt="RCN" srcset="img/projects/01-RCN.png 1x, img/projects/01-RCN@2x.png 2x" />
-                    </div>
-                    <div class="detail-item item2">
-                        <img src="img/projects/02-DECENTRALAND.png" alt="Decentraland" srcset="img/projects/02-DECENTRALAND.png 1x, img/projects/02-DECENTRALAND@2x.png 2x" />
-                    </div>
-                    <div class="detail-item item3">
-                        <img src="img/projects/03-CHAIN-LINK.png" alt="Chain Link" srcset="img/projects/03-CHAIN-LINK.png 1x, img/projects/03-CHAIN-LINK@2x.png 2x" />
-                    </div>
-                    <div class="detail-item item4">
-                        <img src="img/projects/04-DISTRICT0X.png" alt="District0x" srcset="img/projects/04-DISTRICT0X.png 1x, img/projects/04-DISTRICT0X@2x.png 2x" />
-                    </div>
-                    <div class="detail-item item5">
-                        <img src="img/projects/05-TRUEBIT.png" alt="Truebit" srcset="img/projects/05-TRUEBIT.png 1x, img/projects/05-TRUEBIT@2x.png 2x" />
-                    </div>
-                    <div class="detail-item item6">
-                        <img src="img/projects/06-PROPS.png" alt="Props" srcset="img/projects/06-PROPS.png 1x, img/projects/06-PROPS@2x.png 2x" />
-                    </div>
-                    <div class="detail-item item7">
-                        <img src="img/projects/07-STORJ.png" alt="Storj" srcset="img/projects/07-STORJ.png 1x, img/projects/07-STORJ@2x.png 2x" />
-                    </div>
-                    <div class="detail-item item8">
-                        <img src="img/projects/08-LIVEPEER.png" alt="Livepeer" srcset="img/projects/08-LIVEPEER.png 1x, img/projects/08-LIVEPEER@2x.png 2x" />
-                    </div>
-                    <div class="detail-item item9">
-                        <img src="img/projects/09-BAZAAR.png" alt="Bazaar" srcset="img/projects/09-BAZAAR.png 1x, img/projects/09-BAZAAR@2x.png 2x" />
-                    </div>
-                </div>
-            </div>
+    <section class="features row">
+      <div class="flex col s12 offset-s0 m10 offset-m1 l8 offset-l2">
+        <div>
+          <img src="./img/01.svg"/>
+          <h4>Request services rather than re-implement them</h4>
+          <h3>Make use of an on-chain set of smart contract libraries for standard and common functions in your applications. </h3>
         </div>
-    </section>
-    <section class="problem main-section">
-        <div class="container">
-            <h2>The problem</h2>
-            <h3>Anyone can use open networks like Ethereum to run software and formalize contractual relationships through code. However, the process is often complex, time-consuming, and prone to error. Today, few tools are available to streamline development.</h3>
-            <div class="detail">
-                <h4>Current Smart Contract Environment</h4>
-                <img class="separador no-desktop" src="img/separador-mobile.svg" alt="selector" />
-                <img class="separador just-tablet" src="img/separador-tablet.svg" alt="selector" />
-                <img class="separador no-mobile" src="img/separador-desktop.svg" alt="selector" />
-                <div class="detail-container">
-                    <div class="detail-item item1">
-                        <img src="img/security_gaps.png" alt="chain" srcset="img/security_gaps.png 1x, img/security_gaps@2x.png 2x" />
-                        <h5>Security gaps</h5>
-                        <p>Developers need to reimplement basic usability and security measures into each application.</p>
-                    </div>
-                    <div class="detail-item item2">
-                        <img src="img/difficult.png" alt="upgrade" srcset="img/difficult.png 1x, img/difficult@2x.png 2x" />
-                        <h5>Difficult to upgrade</h5>
-                        <p>The immutability of smart contracts makes them difficult to upgrade with new features and fixes—a major problem when dealing with security vulnerabilities.</p>
-                    </div>
-                    <div class="detail-item item3">
-                        <img src="img/limited_interoperability.png" alt="cryptocurrencies logos" srcset="img/limited_interoperability.png 1x, img/limited_interoperability@2x.png 2x" />
-                        <h5>Limited interoperability</h5>
-                        <p>Decentralized networks are not structured to work together, often needing access to each other’s native tokens for transactions.</p>
-                    </div>
-                    <div class="detail-item item3 item4">
-                        <img src="img/few_standard.png" alt="standarize" srcset="img/few_standard.png 1x, img/few_standard@2x.png 2x" />
-                        <h5>Few standardized resources</h5>
-                        <p>Every step of the smart contract development process is significantly harder than in traditional software.</p>
-                    </div>
-                </div>
-             </div>
-         </div>
-    </section>
-    <section class="what-is main-section">
-        <div class="container">
-            <img class="no-mobile-inline main-img" src="img/whatis.svg" alt="zepplin components" />
-            <div class="what-is-content">
-                <h2>What is <img src="img/logo.svg" alt="zepplin os"/></h2>
-                <h3>zeppelin_os is an open-source, decentralized platform of tools and services on top of the EVM to develop and manage smart contract applications.</h3>
-                <h3 class="second-row">It makes the smart contract development process faster, easier and more secure.</h3>
-                <img class="no-desktop main-img" src="img/whatis-mobile.svg" alt="zepplin components"/>
-                <div class="powered-what">
-                    <p>Powered by</p>
-                    <div class="logo">
-                        <a href="https://openzeppelin.org/" target="_blank"><img src="img/logo-open-zeppelin.svg" alt="open zeppelin"/></a>
-                    </div>
-                </div>
-            </div>
+        <div>
+          <img src="./img/02.svg"/>
+          <h4>Continually upgrades and patches itself </h4>
+          <h3>ZeppelinOS creates a virtuous cycle where developers are incentivized to propose desirable upgrades, while users are ensured that the network is built and upgraded for their needs. </h3>
         </div>
-    </section>
-    <section class="what-will main-section">
-        <div class="container">
-            <h2>What will <br class="no-desktop"><img src="img/logo.svg" alt="zepplin os"/> deliver</h2>
-            <h3>zeppelin_os provides value to smart contract developers in <br class="just-tablet">three ways:</h3>
-            <div class="detail">
-                <div class="detail-container">
-                    <div class="detail-item item1">
-                        <img src="img/kernel.png" srcset="img/kernel.png 1x, img/kernel@2x.png 2x" alt="kernel"/>
-                        <h5>Kernel</h5>
-                        <p>An upgradeable, community-governed core of functionality provided by an on-chain smart contract library that developers can call for standard and common functions in their applications.</p>
-                    </div>
-                    <div class="detail-item item2">
-                        <img src="img/marketplace.png" srcset="img/marketplace.png 1x, img/marketplace@2x.png 2x" alt="marketplace"/>
-                        <h5>Marketplace</h5>
-                        <p>Developers can purchase and monetize inter-contract services offered natively inside the OS smart contracts. zeppelin_os establishes interoperability standards allowing smart contracts to interact with each other.</p>
-                    </div>
-                    <div class="detail-item item3">
-                        <img src="img/sdk.png" srcset="img/sdk.png 1x, img/sdk@2x.png 2x" alt="SDK"/>
-                        <h5>SDK</h5>
-                        <p>Apart from on-chain services, zeppelin_os provides a set of off-chain tools to simplify the development, debugging, testing, deployment, and monitoring of decentralized applications.</p>
-                    </div>
-                </div>
-           </div>
-       </div>
-    </section>
-    <section class="token main-section">
-        <div class="container">
-            <div class="logo-token">
-                <img src="img/zep-token-color.png" srcset="img/zep-token-color.png 1x, img/zep-token-color@2x.png 2x" alt="token"/>
-            </div>
-            <div class="token-content">
-                <h2>The ZEP token</h2>
-                <h3>The zeppelin_os ecosystem is made possible through the <br class="just-tablet"><strong>ZEP token</strong>.</h3>
-                <h3 class="second-row">The ZEP token is designed to streamline the developer experience by facilitating smart contract interoperability and decentralizing the governance of the platform.</h3>
-                <div class="detail">
-                    <div class="detail-container">
-                        <div class="detail-item item1">
-                            <div class="detail-content">
-                                <h5>Interoperability</h5>
-                                <p>The zeppelin_os marketplace creates a plug and play experience, allowing various protocol services to be integrated into any decentralized app. With a streamlined utility token (ZEP), one payment method can be used across
-                                    thousands of apps and protocols.</p>
-                            </div>
-                            <img class="separator no-mobile-inline" src="img/inter-linea.svg" alt="separator"/>
-                            <img class="main-image" src="img/interoperability.svg" alt="interoperability detail"/>
-                        </div>
-                        <div class="detail-item item2">
-                            <img class="main-image no-mobile-inline" src="img/governance.svg" alt="governance detail"/>
-                            <img class="separator no-mobile-inline" src="img/gover-linea.svg" alt="separator"/>
-                            <div class="detail-content">
-                                <h5>Governance</h5>
-                                <p>The ZEP token is structured so that zeppelin_os continually upgrades and patches itself. Upgrades are powered by a decentralized upgrading mechanism, where network participants can vouch for new versions of the zeppelin_os
-                                    Kernel.</p>
-                            </div>
-                            <img class="no-desktop" src="img/governance.svg" alt="governance detail"/>
-                        </div>
-                        <div class="detail-item item3">
-                            <p><a href="https://blog.zeppelinos.org/how-the-zep-token-powers-zeppelin_os/?utm_source=site&utm_medium=organic&utm_campaign=learn-more" class="calltoaction" onclick="ga('send', 'event', 'Outgoing Links', 'https://blog.zeppelinos.org/how-the-zep-token-powers-zeppelin_os/', '/');" target="_blank">learn more</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div>
+          <img src="./img/03.svg"/>
+          <h4>Upgrade the smart contracts on-chain</h4>
+          <h3>Fix security vulnerabilities or introduce new features to your apps without re-deploying new instances. </h3>
         </div>
+      </div>
     </section>
-    <section class="powered main-section">
-        <div class="container">
-            <div class="header">
-                <img class="logo" src="img/logo.svg" alt="zepplin os"/>
-                <span class="powered-by">is powered by</span>
-                <a href="https://openzeppelin.org/" target="_blank">
-                    <img class="logo2" src="img/logo-open-zeppelin.svg" alt="open zepplin"/>
-                </a>
-            </div>
-            <div class="info">
-                <p class="money">$4.5 billion</p>
-                <p class="text"><span>worth of digital assets powered by</span> <a href="https://openzeppelin.org/" target="_blank"><img src="img/logo-open-zeppelin-1.svg" alt="open zepplin" /> </a> <span class="text2">smart contracts</span></p>
-                <img class="logo-gray no-desktop" src="img/OZ-logos-mobile-gray.png" srcset="img/OZ-logos-gray-mobile.png 1x, img/OZ-logos-gray-mobile@2x.png 2x" alt="brands"/>
-                <img class="logo-gray no-mobile" src="img/OZ-logos-gray.png" srcset="img/OZ-logos-gray.png 1x, img/OZ-logos-gray@2x.png 2x" alt="brands" />
-            </div>
-            <div class="metrics">
-                <div class="details">
-                    <p class="main">3000+</p>
-                    <p class="disclaimer">Community members</p>
-                    <p><a href="https://openzeppelin.slack.com" class="calltoaction" target="_blank">join now</a></p>
-                </div>
-                <div class="details">
-                    <p class="main">100+</p>
-                    <p class="disclaimer">GitHub contributors</p>
-                    <p><a href="https://github.com/OpenZeppelin/zeppelin-solidity/" class="calltoaction" target="_blank">start contributing</a></p>
-                </div>
-            </div>
+    <section class="security">
+      <div class="row">
+        <div class="col s12 offset-s0 m5 offset-m1 l4 offset-l2">
+          <h2>Ensure the code you are using stays secure and up-to-date</h2>
+          <p>The ZEP token ensures that ZeppelinOS users receive the upgrades they need. Projects can stake tokens in favor of proposed Kernel upgrades.</p>
+          <p>The network then indicates developers the latest, most qualified version through the staking distribution.</p>
         </div>
+        <div class="col s12 m5 l4 right-aligned">
+          <img src="./img/imagen1_3.svg"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 offset-s0 m5 offset-m1 l4 offset-l2">
+          <h2>Earn ZEP for auditing and developing updates to ZeppelinOS' libraries </h2>
+          <p>Any developer can propose an upgrade to the ZeppelinOS kernel. Developers are compensated when ZEP holders stake their tokens in favor of the proposed upgrade.</p>
+          <p>The level of compensation is structured to ensure network upgrades are continually proposed, vetted, and adopted in a decentralized fashion.</p>
+        </div>
+        <div class="col s12 m5 l4">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col centered s12 offset-s0 m10 offset-m1 l8 offset-l2">
+          <h2 class="centered">Projects building on ZeeplinOS</h2>
+          <div id="projects">
+            <div>
+              <img src="./img/proyectos/p_01.svg" />
+            </div>
+            <div>
+              <img src="./img/proyectos/p_02.svg" />
+            </div>
+            <div>
+              <img src="./img/proyectos/p_03.svg" />
+            </div>
+            <div>
+              <img src="./img/proyectos/p_04.png" />
+            </div>
+            <div>
+              <img class="rcn" src="./img/proyectos/p_05.svg" /></div>
+            <div>
+              <img class="livepeer" src="./img/proyectos/p_06.svg" />
+            </div>
+            <div>
+              <img class="truebit" src="./img/proyectos/p_07.svg" />
+            </div>
+            <div>
+              <img class="storj" src="./img/proyectos/p_08.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="whitepaper main-section">
-        <div class="container">
-            <!--
-            <span class="comilla first">“</span>
-            <h3 class="comillas-text">Our underlying goal with everything we do is to foster economic freedom — enabling every human to work, produce, consume, and invest however desired.</h3><span class="comilla last">”</span>
-            -->
-            <div class="content-whitepaper">
-                <a href="/zeppelin_os_whitepaper.pdf" onclick="ga('send', 'event', 'Outgoing Links', '/zeppelin_os_whitepaper.pdf', '/');" target="_blank">
-                    <img class="paper" src="img/whitepaper.png" srcset="img/whitepaper.png 1x, img/whitepaper@2x.png 2x" alt="whitepaper" />
-                </a>
-                <p class="paper-text">
-                    <a href="/zeppelin_os_whitepaper.pdf" onclick="ga('send', 'event', 'Outgoing Links', '/zeppelin_os_whitepaper.pdf', '/');" target="_blank">Read the Whitepaper</a>
-                </p>
-            </div>
-            <div class="newsletter">
-                <h2>Sign up for our newsletter</h2>
-                <h3>Learn more about the project and stay up-to-date with <br class="just-tablet">the next stages.</h3>
-                <section class="form">
-                    <form action="//solutions.us8.list-manage.com/subscribe/post?u=6b769ee0293207617c49cd801&amp;id=1ec499e5af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-                        <input required class="form-email" type="email" placeholder="your email here" name="EMAIL" id="mce-EMAIL" />
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6b769ee0293207617c49cd801_1ec499e5af" tabindex="-1" value=""></div>
-                        <input class="form-button" type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe"/>
-                    </form>
-                </section>
-            </div>
+    <section class="dapps row">
+      <div class="col centered s12 offset-s0 m10 offset-m1 l8 offset-l2">
+        <h1>Sample dApps made with ZeppelinOS</h1>
+        <div class="col l6">
+          <h2>Crafty</h2>
+          <p>A crafting game where ERC-20 tokens serve as ingredients to create new ones. These tokens make use of the ZeppelinOS standard library and can be traded </p>
         </div>
+        <div class="col l6">
+          <h2>Basil</h2>
+          <p>Donate ETH to a smart contract and change the color of an LED that lights our office plant. The contract is upgraded using a proxy that preserves its original state while </p>
+        </div>
+      </div>
     </section>
-    <footer class="main-section">
-        <div class="container">
-            <p class="by">zeppelin_os is a project by</p>
-            <a href="https://zeppelin.solutions/?utm_source=zos-site&utm_medium=organic&utm_campaign=footer" target="_blank">
-                <img class="logo" src="img/zeppelin-logo-white.svg" alt="zeppelin" />
-            </a>
-            <div class="social">
-                <a href="https://github.com/zeppelinos" target="_blank"><img src="img/github.svg" alt="github"/></a>
-                <a href="https://twitter.com/zeppelin_OS" target="_blank"><img src="img/twitter.svg" alt="twitter"/></a>
-                <a href="https://blog.zeppelinos.org/?utm_source=site&utm_medium=organic&utm_campaign=footer" onclick="ga('send', 'event', 'Outgoing Links', 'https://blog.zeppelinos.org/', '/');" target="_blank">blog</a>
-            </div>
-            <p class="copyright">zOS Global Limited</p>
+    <section class="media row">
+      <div class="col s12 offset-s0 m10 offset-m1 l8 offset-l2 centered">
+        <h1 class="centered">Media</h1> 
+        <div class="col l6 centered">
+          <iframe width="420" height="240" src="https://www.youtube.com/embed/1EWvebDU66U"></iframe>
         </div>
-    </footer>
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
-    </script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-</body>
+        <div class="col l6 centered">
+          <iframe width="420" height="240" src="https://www.youtube.com/embed/UdbCYLRnna4"></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="start row">
+      <div class="col s12 offset-s0 m10 offset-m1 l8 offset-l2">
+        <h1>Start building on ZeppelinOS</h1> 
+        <div>
+        </div>
+      </div>
+    </section>
+    <section></section>
+    
+  </body>
 
 </html>
