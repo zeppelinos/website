@@ -86,6 +86,17 @@ h4 {
   margin-bottom: 0 !important;
 }
 
+h5 {
+  font-family: 'Roboto';
+  font-size: 1.1em !important;
+  line-height: 1.7 !important;
+  margin: 1rem 0 0 0 !important;
+  opacity: 0.9 !important;
+  color: #67eaec;
+  font-weight: 600 !important;
+  text-align: left;
+}
+
 /*NAVBAR*/
 nav {
 	background-color: #1d2327 !important;
@@ -254,9 +265,13 @@ blockquote {
 }
 
 /*PROJECTS*/
+
 #projects {
 	margin-bottom: 100px;
 	margin-top: 30px;
+}
+.projects-title {
+  margin-top: 80px;
 }
 #projects div {
   height: 100px;
@@ -302,7 +317,12 @@ blockquote {
 }
 .media h1 {
 	margin: 0 0 30px 0 !important;
-
+}
+.media h5 {
+  text-align: center !important;
+  max-width: 70%;
+  margin: auto !important;
+  margin-bottom: 50px !important;
 }
 iframe {
 	border: solid transparent;
