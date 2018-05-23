@@ -80,7 +80,7 @@ h3 {
 
 h4 {
 	font-family: 'Roboto Mono', monospace;
-	line-height: 2rem !important;
+	line-height: 1.9rem !important;
   font-size: 1.3em !important;
   font-weight: bold!important;
   margin-bottom: 0 !important;
@@ -192,6 +192,9 @@ blockquote {
 	width: 30%;
 }
 
+.features .flex img{
+  max-height: 44px;
+}
 
 /*SECURITY*/
 .security {
