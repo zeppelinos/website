@@ -106,13 +106,13 @@ nav .empty-button {
 /*RECURRENT*/
 .fill-button {
 	background-color: #39e6e0;
-	font-family: 'Roboto';
-  font-size: 12px;
+  font-family: 'Roboto';
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.8px;
   text-align: center;
   color: #191d1f;
-  padding: 7px 25px;
+  padding: 0.6rem 2.75rem;
   border-radius: 30px;
   border: solid 2px #39e6e0;
 }
@@ -128,7 +128,7 @@ nav .empty-button {
   letter-spacing: 0.8px;
   text-align: center;
   color: #39e6e0;
-  padding: 7px 25px;
+  padding: 0.5rem 1.5rem;
   border-radius: 30px;
   border: solid 2px #39e6e0;
 }
