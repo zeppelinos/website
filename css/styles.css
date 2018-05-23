@@ -131,6 +131,10 @@ nav .empty-button {
 	color: #191d1f;
 	background-color: #39e6e0;
 }
+.transparent-btn {
+	background: transparent;
+  border: solid transparent;
+}
 
 /*HERO*/
 .hero {
@@ -266,9 +270,11 @@ iframe {
   padding: 7px 25px;
   border-radius: 30px;
   border: solid 2px white;
+  height: 35px;
+  line-height: 19px;
 }
 .white-button:hover {
-	color: transparent;
+	color: #5fbeea;
 	background-color: white;
 }
 form {
@@ -280,12 +286,13 @@ form {
   letter-spacing: 0.8px;
   text-align: center;
   color: white;
-  padding: 0 25px;
+  padding: 0 0 0 25px;
   border-radius: 30px;
   border: solid 2px white;
   margin-left: 15px;
+  width: 353px;
+  height: 38px;
 }
-
 input, input[type="email"]::-webkit-input-placeholder {
   color: white;
   font-size: 13px;
@@ -295,8 +302,14 @@ input, input[type="email"]::-webkit-input-placeholder {
 input[type="email"] {
 	margin: 0 !important;
   height: 33px !important;
+  border: solid transparent;
 }
- 
+form .transparent-btn{
+	padding: 0 3px;
+}
+form .transparent-btn img{
+	height: 24px;
+}
 
 /*FOOTER*/
 .footer {
