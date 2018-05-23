@@ -420,3 +420,13 @@ footer h3 img {
   position: relative;
   padding: 0 10px;
 }
+
+
+/*ANIMATION*/
+#image1 {
+  left: inherit!important;
+  margin-left: 30px !important;
+  width: 389px;
+  position: relative;
+  bottom: -158px;
+}
