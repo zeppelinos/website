@@ -102,10 +102,15 @@ nav .empty-button {
   line-height: 10px;
   margin-left: 10px;
 }
+nav ul a:hover {
+  font-weight: 800;
+  color: #67EAEC;
+  background-color: transparent !important;
+}
 
 /*RECURRENT*/
 .fill-button {
-	background-color: #39e6e0;
+  background-color: #39e6e0;
   font-family: 'Roboto';
   font-size: 0.8rem;
   font-weight: 600;
@@ -117,12 +122,12 @@ nav .empty-button {
   border: solid 2px #39e6e0;
 }
 .fill-button:hover {
-	color: #39e6e0;
-	background-color: transparent;
+  color: #39e6e0;
+  background-color: transparent;
 }
 .empty-button {
-	background-color: transparent;
-	font-family: 'Roboto';
+  background-color: transparent;
+  font-family: 'Roboto';
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -133,11 +138,11 @@ nav .empty-button {
   border: solid 2px #39e6e0;
 }
 .empty-button:hover {
-	color: #191d1f;
-	background-color: #39e6e0;
+  color: #191d1f;
+  background-color: #39e6e0 !important;
 }
 .transparent-btn {
-	background: transparent;
+  background: transparent;
   border: solid transparent;
 }
 
@@ -317,8 +322,9 @@ input, input[type="email"]::-webkit-input-placeholder {
 }
 input[type="email"] {
 	margin: 0 !important;
-  height: 33px !important;
-  border: solid transparent;
+  height: 27px !important;
+  border: solid transparent !important;
+  box-shadow: none !important;
 }
 form .transparent-btn{
 	padding: 0 3px;
