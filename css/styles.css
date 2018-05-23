@@ -89,28 +89,45 @@ nav {
 .brand-logo img {
 	height: 27px;
 }
-nav .red-button {
+nav .empty-button {
 	margin-top: 20px;
   height: 27px;
-  line-height: 15px;
+  line-height: 10px;
   margin-left: 10px;
 }
 
 /*RECURRENT*/
-.red-button {
-	background-color: #ff4747;
+.fill-button {
+	background-color: #39e6e0;
 	font-family: 'Roboto';
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.8px;
   text-align: center;
-  color: #ffffff;
+  color: #191d1f;
   padding: 7px 25px;
   border-radius: 30px;
+  border: solid 2px #39e6e0;
 }
-.red-button:hover {
-	background-color: #9a2b2b;
-	box-shadow: 0 0px 9px 0px rgba(0, 0, 0, 0.5);
+.fill-button:hover {
+	color: #39e6e0;
+	background-color: transparent;
+}
+.empty-button {
+	background-color: transparent;
+	font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #39e6e0;
+  padding: 7px 25px;
+  border-radius: 30px;
+  border: solid 2px #39e6e0;
+}
+.empty-button:hover {
+	color: #191d1f;
+	background-color: #39e6e0;
 }
 
 /*HERO*/
@@ -159,7 +176,7 @@ nav .red-button {
 
 /*SECURITY*/
 .security {
-	background: black;
+	background: linear-gradient(136deg, #1f2529, #111314); 
 	height: auto;
 	padding-top: 120px;
 }
@@ -230,4 +247,81 @@ iframe {
 .start {
 	background-image: linear-gradient(282deg, #5c8ee4, #64cdea);
 	padding: 50px 0;
+}
+.start .button-box {
+	padding: 30px 0;
+	display: flex;
+	align-items: center; 
+}
+.white-button {
+	background-color: transparent;
+	font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: white;
+  padding: 7px 25px;
+  border-radius: 30px;
+  border: solid 2px white;
+}
+.white-button:hover {
+	color: transparent;
+	background-color: white;
+}
+form {
+	display: flex;
+	background-color: transparent;
+	font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: white;
+  padding: 0 25px;
+  border-radius: 30px;
+  border: solid 2px white;
+  margin-left: 15px;
+}
+
+input, input[type="email"]::-webkit-input-placeholder {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+input[type="email"] {
+	margin: 0 !important;
+  height: 33px !important;
+}
+ 
+
+/*FOOTER*/
+.footer {
+	background-color: #191d1f;
+	padding: 70px 0;
+	min-height: auto;
+}
+.footer h3 {
+	margin: 11px;
+}
+.footer img {
+	margin: 11px 0;
+}
+.footer img {
+	margin: 10px 0;
+}
+footer {
+	background-color: #131313;
+}
+
+footer h3 {
+	margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+footer h3 img {
+	top: 3px;
+  position: relative;
+  padding: 0 10px;
 }
