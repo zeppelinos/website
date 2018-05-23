@@ -43,6 +43,10 @@ button, a {
 	display: flex;
 }
 
+.row .col {
+    padding: 0 !important;
+}
+
 /*TEXT*/
 h1 {
 	font-family: 'Roboto Mono', monospace;
