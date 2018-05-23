@@ -67,14 +67,16 @@ h2 {
 
 h3 {
 	font-family: 'Roboto';
-  font-size: 14px !important;
+  font-size: 1.1em !important;
   line-height: 1.7 !important;
+  margin: 1rem 0 0 0 !important;
+  opacity: 0.9 !important;
 }
 
 h4 {
 	font-family: 'Roboto Mono', monospace;
-	line-height: 30px !important;
-  font-size: 19px !important;
+	line-height: 2rem !important;
+  font-size: 1.3em !important;
   font-weight: bold!important;
   margin-bottom: 0 !important;
 }
@@ -169,8 +171,8 @@ nav .empty-button {
 	justify-content: space-between;
 }
 .features .flex div {
-	padding: 0 15px;
-	width: 305px;
+	padding: 0;
+	width: 30%;
 }
 
 
