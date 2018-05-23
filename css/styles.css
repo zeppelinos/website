@@ -87,7 +87,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Roboto';
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.1em !important;
   line-height: 1.7 !important;
   margin: 1rem 0 0 0 !important;
