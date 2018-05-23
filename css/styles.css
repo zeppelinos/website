@@ -196,14 +196,14 @@ blockquote {
 .security {
 	background: linear-gradient(136deg, #1f2529, #111314); 
 	height: auto;
-	padding-top: 120px;
+	padding-top: 5rem;
 }
 .security .row {
-	margin: 60px 0;
+	margin: 2rem 0;
 }
 .security img {
 	max-width: 420px;
-  margin: 61px auto;
+  margin-top: 4rem;
 }
 
 /*PROJECTS*/
