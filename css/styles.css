@@ -138,14 +138,14 @@ nav .empty-button {
 
 /*HERO*/
 .hero {
-	background: linear-gradient(127deg, #3a464c, #131313);
+	background: linear-gradient(125deg, #283036, #111314);
 	min-height: 100vh;
 	height: auto;
 	max-height: 850px;
   overflow: hidden;
 }
 .hero .first-p {
-	margin-bottom: 50px;
+	margin-bottom: 2rem;
 }
 .hero .second-p {
 	margin-top: 120px;
