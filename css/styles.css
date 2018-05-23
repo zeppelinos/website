@@ -46,21 +46,22 @@ button, a {
 /*TEXT*/
 h1 {
 	font-family: 'Roboto Mono', monospace;
-	line-height: 37px !important;
-  font-size: 24px !important;
+	line-height: 1.5em !important;
+  font-size: 1.75em !important;
   font-weight: bold!important;
   margin-bottom: 0 !important;
 }
 p {
 	font-family: 'Roboto';
-  font-size: 17px;
+  font-size: 1.25em;
   line-height: 1.7;
+  opacity: 0.9;
 }
 
 h2 {
 	font-family: 'Roboto Mono', monospace;
-	line-height: 30px !important;
-  font-size: 21px !important;
+	line-height: 1.25em !important;
+  font-size: 1.5em !important;
   font-weight: bold!important;
   margin-bottom: 0 !important;
 }
