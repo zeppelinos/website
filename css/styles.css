@@ -152,10 +152,17 @@ nav .empty-button {
 .hero .first-p {
 	margin-bottom: 2rem;
 }
-.hero .second-p {
-	margin-top: 120px;
+blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 4px solid #39e7e0 !important;
+  font-size: 1.25em;
+  font-family: 'roboto-medium';
+  line-height: 1.75em;
 }
-
+.hero .second-p {
+  margin-top: 120px;
+}
 .hero h1 {
 	max-width: 431px;
 	margin-top: 168px;
