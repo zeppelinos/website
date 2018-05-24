@@ -271,18 +271,18 @@ blockquote {
 	margin: 2rem auto;
 }
 .security img {
-	max-width: 420px;
-  margin-top: 4rem;
+	max-width: 410px;
+  margin-top: 2rem;
 }
 
 /*PROJECTS*/
 
 #projects {
-	margin-bottom: 100px;
+	margin-bottom: 7rem;
 	margin-top: 30px;
 }
 .projects-title {
-  margin-top: 80px;
+  margin-top: 7rem;
 }
 #projects div {
   height: 100px;
@@ -327,13 +327,13 @@ blockquote {
 	padding: 100px 0;
 }
 .media h1 {
-	margin: 0 0 30px 0 !important;
+	margin: 0 0 4rem 0 !important;
 }
 .media h5 {
   text-align: center !important;
-  max-width: 70%;
+  max-width: 90%;
   margin: auto !important;
-  margin-bottom: 50px !important;
+  margin-bottom: 2rem !important;
   color: #4CC5FF !important;
 }
 iframe {
