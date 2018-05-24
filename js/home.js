@@ -7,17 +7,14 @@ $( document ).ready(function(){
   $('.modal').modal();
 
 
-  	var images = [
-			"./img/animation/imagen1_1.svg",
-			"./img/animation/imagen1_2.svg",
-			"./img/animation/imagen1_3.svg",
-			"./img/animation/imagen1_4.svg",
-			"./img/animation/imagen2.svg",
-		];
-	// TweenMax can tween any property of any object. We use this object to cycle through the array
+	var images = [
+		"./img/animation/imagen1_1.svg",
+		"./img/animation/imagen1_2.svg",
+		"./img/animation/imagen1_3.svg",
+		"./img/animation/imagen1_4.svg",
+		"./img/animation/imagen2.svg",
+	];
 	var obj = {curImg: 0};
-
-	// create tween
 	var tween = TweenMax.to(obj, 0.5,
 		{
 			curImg: images.length - 1,	// animate propery curImg to number of images
@@ -32,7 +29,7 @@ $( document ).ready(function(){
 
   var controller = new ScrollMagic.Controller();
   var scene = new ScrollMagic.Scene({
-  	triggerElement: "#trigger", duration: 400})
+  	triggerElement: "#trigger", duration: 200})
 			.setTween(tween)
 			.addTo(controller);
 

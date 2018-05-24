@@ -1,101 +1,107 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>zeppelin_os</title>
-    <meta name="description" content="">
+    <title>ZeppelinOS</title>
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+    <meta name="description" content="ZeppelinOS is an open-source, distributed platform of tools and services on top of the EVM to develop and manage smart contract applications securely. It makes the smart contract development process faster, easier and more secure">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="5wYcATaYgOC-5kYy3F7_XQe383nVhrPA-5rVKUUD0Oo" />
     <link rel="icon" type="image/png" href="img/favicon64x64.png">
-<!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"/><![endif]-->
-    <link rel="apple-touch-icon" href="icon.png">
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css?v=4">
-
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/jquery.gsap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-102575245-1', 'auto');
-        ga('send', 'pageview');
+      ga('create', 'UA-102575245-1', 'auto');
+      ga('send', 'pageview');
     </script>
-    <style>
-    .cursor {
-        cursor: pointer !important;
-    }
-    .hero .container.thanks {
-        text-align: center;
-        padding-top:20px;
-        padding-bottom: 175px;
-    }
-    .hero .container.thanks a{
-        text-decoration: underline;
-        cursor: pointer;
-    }
-        @media (min-width: 980px) {
-            .hero .container.thanks h3{
-                margin-top: -12px;
-                padding: 0px 300px;
-                letter-spacing: 0.2px;
-            }
-            .hero .hero-img-bkg {
-                max-width: 1440px;
-                background-size: 1440px auto;
-                background-position: center top;
-                margin: 0 auto;
-            }
-        }
-
-    </style>
+    <meta name="msvalidate.01" content="9D58B02B8E02D6522AD2508D3AB3CCAF" />
+  </head>
 </head>
 
 <body>
-    <header class="main-section">
-        <div class="container">
-            <a class="cursor" href="https://zeppelinos.org/">
-                <img class="logo" src="img/logo.svg" alt="zepplin_os"/>
-            </a>
-            <section class="icon-bar">
-                <div class="menu-bar" onclick="myFunction(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                </div>
-            </section>
-            <nav class="desktop-nav">
-                <a href="/zeppelin_os_whitepaper.pdf" onclick="ga('send', 'event', 'Outgoing Links', '/zeppelin_os_whitepaper.pdf', '/');" target="_blank">whitepaper</a>
-                <a href="https://blog.zeppelinos.org/" target="_blank">blog</a>
-            </nav>
+  <nav class="row">
+    <div class="nav-wrapper container row">
+      <a href="/" class="brand-logo">
+        <img src="./img/logo_zos_navbar.svg" />
+      </a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a target="_blank" href="https://zeppelinos.org/zeppelin_os_whitepaper.pdf">Whitepaper</a></li>
+        <li><a target="_blank" href="https://docs.zeppelinos.org/">Docs</a></li>
+        <li><a target="_blank" href="https://blog.zeppelinos.org/">Blog</a></li>
+        <li><a target="_blank" href="https://github.com/zeppelinos/zos-cli" class="empty-button">GET STARTED</a></li>
+      </ul>
+      <ul class="sidenav" id="mobile-nav">
+        <li><a class="sidenav-close close-link" href="#!">X</a></li>
+        <li><a target="_blank" href="https://zeppelinos.org/zeppelin_os_whitepaper.pdf">Whitepaper</a></li>
+        <li><a target="_blank" href="https://docs.zeppelinos.org/">Docs</a></li>
+        <li><a target="_blank" href="https://blog.zeppelinos.org/">Blog</a></li>
+        <li><a target="_blank" href="https://github.com/zeppelinos/zos-cli" class="fill-button">GET STARTED</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="hero main-section valign-wrapper">
+    <div class="container">
+      <div class="container thanks centered">
+        <h1 class="centered" style="margin: auto;">Thank you for suscribing!</h1>
+        <p class="centered" style="margin-left: auto; margin-right: auto;">To learn more about zeppelin_os read our <a href="/zeppelin_os_whitepaper.pdf" onclick="ga('send', 'event', 'Outgoing Links', '/zeppelin_os_whitepaper.pdf', '/');" target="_blank">whitepaper</a>, our <a href="https://blog.zeppelinos.org/" target="_blank">blog</a> or follow us on <a href="https://twitter.com/zeppelin_OS" target="_blank">twitter</a>.</p>
+      </div>
+    </div>
+  </section>
+  <section class="footer row">
+      <div class="container row">
+        <div class="col l3 m3 s12">
+          <img src="./img/logo_zOS_footer.svg" />
         </div>
-    </header>
-    <section class="hero main-section">
-        <div class="hero-img-bkg">
-            <div class="container">
-                <nav class="mobile-nav">
-                    <a href="/zeppelin_os_whitepaper.pdf" onclick="ga('send', 'event', 'Outgoing Links', '/zeppelin_os_whitepaper.pdf', '/');" target="_blank">whitepaper</a>
-                    <a href="https://blog.zeppelinos.org/" target="_blank">blog</a>
-                </nav>
-                <div class="container thanks">
-                    <h2>Thank you for suscribing!</h2>
-                    <h3>To learn more about zeppelin_os read our <a href="/zeppelin_os_whitepaper.pdf" onclick="ga('send', 'event', 'Outgoing Links', '/zeppelin_os_whitepaper.pdf', '/');" target="_blank">whitepaper</a>, our <a href="https://blog.zeppelinos.org/" target="_blank">blog</a> or follow us on <a href="https://twitter.com/zeppelin_OS" target="_blank">twitter</a>.</h3>
-                </div>
-            </div>
+        <div class="col l2 m2 s4">
+          <a target="_blank" href="https://zeppelinos.org/zeppelin_os_whitepaper.pdf">
+            <h3>Whitepaper</h3>
+          </a>
+          <a target="_blank" href="https://github.com/zeppelinos">
+            <h3>Github</h3>
+          </a>
+          <a target="_blank" href="https://docs.zeppelinos.org/">
+            <h3>Docs</h3>
+          </a>
         </div>
+        <div class="col l2 m2 s4">
+          <a target="_blank" href="https://slack.openzeppelin.org/">
+            <h3>Slack</h3>
+          </a>
+          <a target="_blank" href="https://twitter.com/zeppelin_os/">
+            <h3>Twitter</h3>
+          </a>
+          <a target="_blank" href="https://blog.zeppelinos.org/">
+            <h3>Blog</h3>
+          </a>
+        </div>
+        <div class="col l2 m2 s4">
+          <a target="_blank" href="https://zeppelin.solutions/jobs/">
+            <h3>Jobs</h3>
+          </a>
+        </div>
+      </div>
     </section>
-    <footer class="main-section">
-        <div class="container">
-            <p class="by">zeppelin_os is a project by</p>
-            <a href="https://zeppelin.solutions/" target="_blank">
-                <img class="logo" src="img/zeppelin-logo-white.svg" alt="zeppelin" />
-            </a>
-            <div class="social">
-                <a href="https://twitter.com/zeppelin_OS" target="_blank"><img src="img/twitter.svg" alt="twitter"/></a> | <a href="https://blog.zeppelinos.org/" target="_blank">blog</a>
-            </div>
-            <p class="copyright">zOS Global Limited</p>
-        </div>
+    <footer>
+      <h3>ZeppelinOS was started and is sponsored by <a target="_blank" href="https://zeppelin.solutions/"><img src="./img/logo_zeppelin.svg" /></a></h3>
     </footer>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
