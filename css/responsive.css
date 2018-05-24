@@ -11,6 +11,8 @@
 	.start .button-box a { margin-bottom: 30px; }
 	.start .button-box form { margin-left: 0; }
 	.security .hide-on-med-and-up img { max-width: 300px; }
+	#projects div { width: 46%; }
+	nav .brand-logo { left: 10px !important; -webkit-transform: none !important; }
 
 	section, footer { margin-top: -1px;}
 	.container {

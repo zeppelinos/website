@@ -156,6 +156,17 @@ nav .sidenav-trigger {
   text-align: right !important;
   float: right !important;
 }
+.social-box {
+  display: flex;
+  width: 241px!important;
+  margin: auto;
+}
+.social-box a {
+  padding: 20px 5px!important;
+}
+.social-box a img{
+  height: 30px
+}
 
 /*RECURRENT*/
 .fill-button {
