@@ -20,6 +20,12 @@
 	  margin: auto;
 	  padding: 0;
 	}
+	.dapps-img {
+	  width: 80%;
+	  position: relative;
+	  top: 50px;
+	  margin-bottom: 30px;
+	}
 }
 
 @media (min-width: 600px) and (max-width: 982px) {
@@ -31,6 +37,12 @@
 	  margin: auto;
 	  padding: 0;
 	}
+	.dapps-img {
+	  width: 60%;
+	  position: relative;
+	  top: 50px;
+	  margin-bottom: 30px;
+	}
 }
 
 @media (min-width: 982px) and (max-width: 1150px) {
@@ -39,12 +51,25 @@
 	  margin: auto;
 	  padding: 0;
 	}
-	.dapps .col-left {
+	.dapps .col-left, .media .col-left {
 	  padding-right: 30px !important;
 	}
-	.dapps .col-right {
+	.dapps .col-right, .media .col-right {
 	  padding-left: 30px !important;
 	}
+	.dapps-img {
+	  width: 113%;
+	  position: relative;
+	  top: 50px;
+	  bottom: 0;
+	}
+	.dapps .col-left .dapps-img {
+	  left: -13%;
+	}
+	.dapps .col-right .dapps-img {
+	  left: 0;
+	}
+	.dapps { padding: 100px 0 40px; }
 }
 @media (min-width: 1150px) {
 	.container {
@@ -52,12 +77,26 @@
 	  margin: auto;
 	  padding: 0;
 	}
-	.dapps .col-left {
+	.dapps .col-left, .media .col-left {
 	  padding-right: 30px !important;
 	}
-	.dapps .col-right {
+	.dapps .col-right, .media .col-right {
 	  padding-left: 30px !important;
 	}
+	.dapps-img {
+	  width: 113%;
+	  position: relative;
+	  top: 50px;
+	  bottom: 0;
+	}
+	.dapps .col-left .dapps-img {
+	  left: -13%;
+	}
+	.dapps .col-right .dapps-img {
+	  left: 0;
+	}
+	.dapps { padding: 100px 0 40px; }
+
 }
 
 

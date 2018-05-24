@@ -10,17 +10,10 @@
     <meta name="google-site-verification" content="5wYcATaYgOC-5kYy3F7_XQe383nVhrPA-5rVKUUD0Oo" />
     <link rel="icon" type="image/png" href="img/favicon64x64.png">
     <script src="js/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/jquery.gsap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
-    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/materialize.min.css">
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/TweenMax.min.js"></script>
     <script type="text/javascript" src="js/home.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script>
@@ -112,19 +105,17 @@
           <div class="col s12 m6 l6">
             <h2>Ensure the code you are using stays secure and up-to-date</h2>
             <p>The ZEP token will ensure that ZeppelinOS users receive the upgrades they need. Projects can use ZEP to signal their support for proposed upgrades.</p>
-            <div id="trigger"></div>
-          </div>
-          <div class="col s12 m6 l6 right-aligned hide-on-small-only">
-            <img id="image1" src="./img/animation/imagen1_1.svg"/>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m7 l6">
+            </br>
+            <div class="col s12 centered hide-on-med-and-up">
+              <img src="./img/imagen2_mobile.svg"/>
+            </div>
             <h2>Earn ZEP for auditing and developing library updates </h2>
             <p>Any developer can propose a fix or improvement to the ZeppelinOS standard libraries. Developers will then be compensated when ZEP holders show their support for proposed upgrades.</p>
             <p>
               Developers set their compensation rate, creating a distributed market of constant upgrades driven by user adoption.
             </p>
+            </br>
+            </br>
             <a><h5>Stay updated with the latest news  ></h5></a>
             <form action="//solutions.us8.list-manage.com/subscribe/post?u=6b769ee0293207617c49cd801&amp;id=1ec499e5af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
                 <input required class="form-email" type="email" placeholder="Enter your email to receive updates" name="EMAIL" id="mce-EMAIL" />
@@ -135,6 +126,12 @@
                   <img src="./img/arrow.svg"/>
                 </button>
             </form>
+          </div>
+          <div class="col s12 m6 l6 right-aligned hide-on-small-only">
+            <img src="./img/animation/imagen1_3.svg"/>
+            </br>
+            </br>
+            <img src="./img/animation/imagen1_4.svg"/>
           </div>
         </div>
         <div class="row">
@@ -172,31 +169,41 @@
     <section class="dapps row">
       <div class="centered container row">
         <h1>Sample apps made with ZeppelinOS</h1>
-        <div class="col l6 col-left">
-          <h2>Basil</h2>
-          <p>The simplest example of smart contract upgradeability using ZeppelinOS: donate ETH to a smart contract and change the color of an LED that lights the plant at Zeppelin's HQ. </p>
-          <a target="_blank" href="https://github.com/zeppelinos/basil/">
-            <h5>>  Explore Basil</h5>
-          </a>
+        <div class="row">
+          <div class="col l6 col-left">
+            <h2>Basil</h2>
+            <p>The simplest example of smart contract upgradeability using ZeppelinOS: donate ETH to a smart contract and change the color of an LED that lights the plant at Zeppelin's HQ. </p>
+            <a target="_blank" href="https://github.com/zeppelinos/basil/">
+              <h5>>  Explore Basil</h5>
+            </a>
+          </div>
+          <div class="col l6 col-right">
+            <h2>Crafty</h2>
+            <p>A crafting game that makes use of the ZeppelinOS standard library and upgradeability mechanism: create new ERC20 tokens by combining existing ones.</p>
+            <a target="_blank" href="https://github.com/zeppelinos/crafty/">
+              <h5>>  Explore Crafty</h5>
+            </a>
+          </div>
         </div>
-        <div class="col l6 col-right">
-          <h2>Crafty</h2>
-          <p>A crafting game that makes use of the ZeppelinOS standard library and upgradeability mechanism: create new ERC20 tokens by combining existing ones.</p>
-          <a target="_blank" href="https://github.com/zeppelinos/crafty/">
-            <h5>>  Explore Crafty</h5>
-          </a>
+        <div class="row">
+          <div class="col l6 col-left">
+            <img class="dapps-img" src="./img/basil.png" />
+          </div>
+          <div class="col l6 col-right">
+            <img class="dapps-img" src="./img/crafty.png" />
+          </div>
         </div>
       </div>
     </section>
     <section class="media row">
       <div class="container row centered">
         <h1 class="centered">Media</h1> 
-        <div class="col l6 m12 s12 centered">
-          <iframe width="420" height="240" src="https://www.youtube.com/embed/1EWvebDU66U"></iframe>
+        <div class="col l6 m12 s12 centered col-left">
+          <iframe src="https://www.youtube.com/embed/1EWvebDU66U"></iframe>
           <h5>The evolution of smart contract security in the Ethereum ecosystem at Devcon3</h5>
         </div>
-        <div class="col l6 m12 s12 centered">
-          <iframe width="420" height="240" src="https://www.youtube.com/embed/UdbCYLRnna4"></iframe>
+        <div class="col l6 m12 s12 centered col-right">
+          <iframe src="https://www.youtube.com/embed/UdbCYLRnna4"></iframe>
           <h5>EP 220/ Manuel Araoz: Zeppelin and the evolution of smart contract development</h5>
         </div>
       </div>
