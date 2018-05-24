@@ -3,7 +3,9 @@
 @media (max-width: 600px) { /*Para monitores small*/
 	.hero h1 { margin-top: 68px; position: relative;}
 	.hero .second-p { position: absolute; bottom: 0; width: 90% }
-	.hero { max-height: 1107px; }
+	.hero { max-height: 1165px; }
+	.hero img { width: 70%; margin-top: 40px; }
+	.hero .fill-button {font-size: 16px; padding: 0.6rem 3.5rem; }
 	.features .flex { flex-direction: column; }
 	.features .flex div { width: inherit; margin-bottom: 50px; }
 	iframe { width: 90%; }
@@ -12,8 +14,9 @@
 	.start .button-box form { margin-left: 0; }
 	.security .hide-on-med-and-up img { max-width: 300px; }
 	#projects div { width: 46%; }
+	.dapps { padding: 50px 0 0;}
 	nav .brand-logo { left: 10px !important; -webkit-transform: none !important; }
-
+	nav .li-margin { margin-top: calc(50vh - 263px); }
 	section, footer { margin-top: -1px;}
 	.container {
 	  width: 90% !important;
