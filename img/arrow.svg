@@ -8,8 +8,8 @@
         <g id="suscribe" transform="translate(-420.000000, -12.000000)">
             <g id="Group-10-Copy">
                 <g id="Group-9" transform="translate(420.000000, 12.000000)">
-                    <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="30" height="30" rx="15"></rect>
-                    <g id="Group-8" transform="translate(8.000000, 8.000000)" stroke="#5D97E4" stroke-width="2">
+                    <rect id="Rectangle-8" fill="#67eaec" x="0" y="0" width="30" height="30" rx="15"></rect>
+                    <g id="Group-8" transform="translate(8.000000, 8.000000)" stroke="#181c1f" stroke-width="2">
                         <path d="M0,7 L13,7" id="Line" stroke-linecap="square"></path>
                         <path d="M9,2.41421356 L9,11.5857864 L13.5857864,7 L9,2.41421356 Z" id="Rectangle-13"></path>
                     </g>

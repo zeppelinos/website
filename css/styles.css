@@ -335,26 +335,24 @@ iframe {
 }
 .start .button-box {
 	padding: 30px 0;
-	display: flex;
-	align-items: center; 
 }
 .white-button {
-	background-color: transparent;
 	font-family: 'Roboto';
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.8px;
   text-align: center;
-  color: white;
   padding: 7px 25px;
   border-radius: 30px;
   border: solid 2px white;
   height: 35px;
   line-height: 19px;
+  color: #5fbeea;
+  background-color: white;
 }
 .white-button:hover {
-	color: #5fbeea;
-	background-color: white;
+	color: white;
+	background-color: transparent;
 }
 form {
 	display: flex;
@@ -367,13 +365,13 @@ form {
   color: white;
   padding: 0 0 0 25px;
   border-radius: 30px;
-  border: solid 2px white;
-  margin-left: 15px;
+  border: solid 2px #67eaec;
+  margin-top: 30px;
   width: 353px;
   height: 38px;
 }
 input, input[type="email"]::-webkit-input-placeholder {
-  color: white;
+  color: #67eaec;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -389,6 +387,7 @@ form .transparent-btn{
 }
 form .transparent-btn img{
 	height: 24px;
+  margin-top: 1px;
 }
 
 /*FOOTER*/
