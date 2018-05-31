@@ -114,7 +114,6 @@ nav .empty-button {
   margin-left: 10px;
 }
 nav ul a:hover {
-  font-weight: 500;
   color: #67EAEC;
   background-color: transparent !important;
 }
@@ -136,6 +135,9 @@ nav .sidenav-trigger {
 }
 #mobile-nav a.fill-button:hover {
   color: #39e6e0;
+}
+#mobile-nav a.fill-button {
+  color: #1b2024;
 }
 #mobile-nav li {
   height: 70px !important;
