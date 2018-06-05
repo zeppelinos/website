@@ -258,6 +258,9 @@ blockquote {
 	padding: 0;
 	width: 30%;
 }
+.feature-img-container {
+  min-height: 50px;
+}
 
 .features .flex img{
   max-height: 44px;
