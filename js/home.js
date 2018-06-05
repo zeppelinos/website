@@ -5,7 +5,9 @@ $( document ).ready(function(){
 	});
   
   $('.modal').modal();
-  $('.hero-img').removeClass('hidden');
+  setTimeout(function () {
+	  $('.hero-img').removeClass('hidden');
+	}, 500);
   
   $(window).scroll(function() {
 	  var features = $('.features').offset().top;
