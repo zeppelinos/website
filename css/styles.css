@@ -220,7 +220,7 @@ nav .sidenav-trigger {
 	margin-bottom: 2rem;
 }
 blockquote {
-  margin: 20px 0;
+  margin: 3rem 0;
   padding-left: 1.5rem;
   border-left: 4px solid #39e7e0 !important;
   font-size: 1.25em;
@@ -277,7 +277,8 @@ blockquote {
 }
 .security img {
 	max-width: 410px;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 /*PROJECTS*/
@@ -320,6 +321,9 @@ blockquote {
 
 
 /*DAPPS*/
+#dapps .row {
+  padding-bottom: 0 !important;
+}
 .dapps {
 	padding: 100px 0;
 	background-color: #191d1f;
