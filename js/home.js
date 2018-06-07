@@ -6,8 +6,17 @@ $( document ).ready(function(){
   
   $('.modal').modal();
   setTimeout(function () {
-	  $('.hero-img').removeClass('hidden');
+	  $('#imgHero1').removeClass('hidden');
 	}, 500);
+	setTimeout(function () {
+	  $('#imgHero2').removeClass('hidden');
+	}, 1200);
+	setTimeout(function () {
+	  $('#imgHero3').removeClass('hidden');
+	}, 1500);
+	setTimeout(function () {
+	  $('#imgHero4').removeClass('hidden');
+	}, 1600);
   
   $(window).scroll(function() {
 	  var features = $('.features').offset().top;
@@ -19,11 +28,11 @@ $( document ).ready(function(){
 	    setTimeout(function () {
 	      $('.feature2').addClass('animated fadeInDown');
 	      $('.feature2').removeClass('hidden');
-	    }, 500);
+	    }, 300);
 	    setTimeout(function () {
         $('.feature3').addClass('animated fadeInDown');
         $('.feature3').removeClass('hidden');
-      }, 1000);
+      }, 700);
 	  }
 	  if ($(window).scrollTop() >= (projects - 400)){
 	    $('.project-img').removeClass('hidden');

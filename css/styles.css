@@ -211,7 +211,6 @@ nav .sidenav-trigger {
 /*HERO*/
 .hero {
 	background: linear-gradient(125deg, #283036, #111314);
-	min-height: 100vh;
 	height: auto;
 	max-height: 850px;
   overflow: hidden;
@@ -227,6 +226,7 @@ blockquote {
   font-family: 'Roboto';
   font-weight: 500;
   line-height: 1.75em;
+  z-index: 550;
 }
 .hero .second-p {
   margin-top: 120px;
@@ -240,9 +240,18 @@ blockquote {
 }
 .hero .img-container {
 	margin-top: 60px; 
+  position: relative;
 }
 .hero .img-container img {
 	width: 279px;
+}
+.hero .img-container img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#imgHero1 {
+  z-index: 500;
 }
 
 /*FEATURES*/
@@ -411,7 +420,7 @@ form .transparent-btn{
 	padding: 0 3px;
 }
 form .transparent-btn img{
-	height: 35px;
+	height: 28px;
   margin-top: 1px;
 }
 
@@ -423,6 +432,9 @@ form .transparent-btn img{
 }
 .footer h3 {
 	margin: 11px;
+}
+.footer h3:hover {
+  color: #67EAEC;
 }
 .footer img {
 	margin: 11px 0;
