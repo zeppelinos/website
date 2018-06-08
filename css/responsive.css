@@ -1,7 +1,7 @@
 /*MEDIA SIZE*/
 
 @media (max-width: 600px) { /*Para monitores small*/
-	.hero h1 { margin-top: 68px; position: relative;}
+	.hero h1 { margin-top: 25px; position: relative;}
 	.hero .first-p { font-size: 1.25em; opacity: 0.9; }
 	.hero .second-p { position: absolute; bottom: 0; width: 90% }
 	.hero { max-height: 1165px; min-height: 100vh; }
@@ -16,6 +16,7 @@
 	.start .button-box form { margin-left: 0; }
 	.security { padding-top: 1rem;}
 	.security .hide-on-med-and-up img { max-width: 80%; }
+	.security h5 { margin-top: -15px !important; }
 	#projects div { width: 46%; }
 	.dapps { padding: 3rem 0 0;}
 	.media { padding: 4rem 0; }
@@ -34,6 +35,8 @@
 	  top: 50px;
 	  margin-bottom: 30px;
 	}
+	.basil-img { margin-bottom: 100px; }
+	.projects-title { margin-top: 5rem; }
 }
 
 @media (min-width: 600px) and (max-width: 982px) {
@@ -78,6 +81,9 @@
 	  left: 0;
 	}
 	.dapps { padding: 100px 0 40px; }
+}
+@media (min-width: 982px) and (max-width: 1313px) {
+	#projects { width: 120%; margin-left: -10%; }
 }
 @media (min-width: 1150px) {
 	.container {

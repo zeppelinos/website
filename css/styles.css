@@ -142,6 +142,15 @@ nav .sidenav-trigger {
 #mobile-nav li {
   height: 70px !important;
 }
+#mobile-nav li.small-li {
+  height: 30px !important;
+}
+#mobile-nav li.button-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px !important;
+}
 .side-nav {
   width: 100%;
 }
@@ -301,7 +310,7 @@ blockquote {
 }
 #projects div {
   height: 100px;
-  width: 205px;
+  width: 180px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -326,6 +335,10 @@ blockquote {
 }
 .rcn {
 	width: 54% !important;
+}
+.winding-tree {
+  height: 47% !important;
+  margin-top: 26px !important;
 }
 
 
@@ -412,7 +425,7 @@ input, input[type="email"]::-webkit-input-placeholder {
 }
 input[type="email"] {
 	margin: 0 !important;
-  height: 35px !important;
+  height: 38px !important;
   border: solid transparent !important;
   box-shadow: none !important;
 }
@@ -421,7 +434,8 @@ form .transparent-btn{
 }
 form .transparent-btn img{
 	height: 28px;
-  margin-top: 1px;
+  margin-top: 4px;
+  margin-right: 1px;
 }
 
 /*FOOTER*/

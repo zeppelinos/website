@@ -35,7 +35,19 @@ $( document ).ready(function(){
       }, 700);
 	  }
 	  if ($(window).scrollTop() >= (projects - 400)){
-	    $('.project-img').removeClass('hidden');
+	    $('.project-img1').removeClass('hidden');
+	    setTimeout(function () {
+	     $('.project-img2').removeClass('hidden');
+	    }, 200);
+	    setTimeout(function () {
+	     $('.project-img3').removeClass('hidden');
+	    }, 400);
+	    setTimeout(function () {
+	     $('.project-img4').removeClass('hidden');
+	    }, 600);
+	    setTimeout(function () {
+	     $('.project-img5').removeClass('hidden');
+	    }, 800);
 	  }
 	});
 
