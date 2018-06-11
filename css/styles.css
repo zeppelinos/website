@@ -225,10 +225,10 @@ nav .sidenav-trigger {
   overflow: hidden;
 }
 .hero .first-p {
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 blockquote {
-  margin: 3rem 0;
+  margin: 6rem 0 !important;
   padding-left: 1.5rem;
   border-left: 4px solid #39e7e0 !important;
   font-size: 1.25em;
@@ -242,7 +242,7 @@ blockquote {
 }
 .hero h1 {
 	max-width: 431px;
-	margin-top: 168px;
+	margin-top: 7rem;
 }
 .hero p {
 	max-width: 514px;
@@ -302,7 +302,7 @@ blockquote {
 /*PROJECTS*/
 
 #projects {
-	margin-bottom: 7rem;
+	margin-bottom: 4rem;
 	margin-top: 30px;
 }
 .projects-title {
@@ -433,9 +433,9 @@ form .transparent-btn{
 	padding: 0 3px;
 }
 form .transparent-btn img{
-	height: 28px;
-  margin-top: 4px;
-  margin-right: 1px;
+	height: 22px;
+  margin-top: 7px;
+  margin-right: 3px;
 }
 
 /*FOOTER*/
