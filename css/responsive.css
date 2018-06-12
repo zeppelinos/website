@@ -10,6 +10,8 @@
 	.features {padding: 2rem 0; }
 	.features .flex { flex-direction: column; }
 	.features .flex div { width: inherit; margin-bottom: 1rem; margin-top: 2rem; }
+	.features h3 {font-size: 1.25em !important; }
+	.features h4 {font-size: 1.5em !important; }
 	iframe { width: 95%; }
 	.start .button-box { flex-direction: column; align-items: start; }
 	.start .button-box a { margin-bottom: 30px; }
