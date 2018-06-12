@@ -5,19 +5,6 @@ $( document ).ready(function(){
 	});
   
   $('.modal').modal();
-
-  setTimeout(function () {
-	  $('#imgHero1').removeClass('hidden');
-	}, 500);
-	setTimeout(function () {
-	  $('#imgHero2').removeClass('hidden');
-	}, 1200);
-	setTimeout(function () {
-	  $('#imgHero3').removeClass('hidden');
-	}, 1500);
-	setTimeout(function () {
-	  $('#imgHero4').removeClass('hidden');
-	}, 1600);
   
   $(window).scroll(function() {
 	  var features = $('.features').offset().top;
