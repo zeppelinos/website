@@ -5,6 +5,7 @@ $( document ).ready(function(){
 	});
   
   $('.modal').modal();
+
   setTimeout(function () {
 	  $('#imgHero1').removeClass('hidden');
 	}, 500);

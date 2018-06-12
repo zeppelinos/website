@@ -228,7 +228,7 @@ nav .sidenav-trigger {
 	margin-bottom: 3rem;
 }
 blockquote {
-  margin: 6rem 0 !important;
+  margin: 6rem 0;
   padding-left: 1.5rem;
   border-left: 4px solid #39e7e0 !important;
   font-size: 1.25em;
@@ -258,9 +258,6 @@ blockquote {
   position: absolute;
   right: 0;
   top: 0;
-}
-#imgHero1 {
-  z-index: 500;
 }
 
 /*FEATURES*/

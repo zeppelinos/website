@@ -21,8 +21,9 @@
 	.dapps { padding: 3rem 0 0;}
 	.media { padding: 4rem 0; }
 	.media h1 { margin: 0 0 2rem 0 !important;}
-	nav .brand-logo { left: 10px !important; -webkit-transform: none !important; }
+	nav .brand-logo { left: 0px !important; -webkit-transform: none !important; }
 	nav .li-margin { margin-top: calc(50vh - 263px); }
+	nav .sidenav-trigger { margin-right: 0 !important;}
 	section, footer { margin-top: -1px;}
 	.container {
 	  width: 90% !important;
@@ -86,6 +87,7 @@
 	#projects { width: 120%; margin-left: -10%; }
 }
 @media (min-width: 1150px) {
+	blockquote { margin: 6rem 0!important; }
 	.container {
 	  max-width: 1150px !important;
 	  margin: auto;
