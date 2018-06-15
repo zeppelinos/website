@@ -27,6 +27,14 @@
       ga('send', 'pageview');
     </script>
     <meta name="msvalidate.01" content="9D58B02B8E02D6522AD2508D3AB3CCAF" />
+
+    <!-- Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/jquery.gsap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
   </head>
 
   <body>
@@ -114,7 +122,7 @@
           </div>
           <div class="col s12 m6 l6">
             <h2>Ensure the code you are using stays secure and up-to-date</h2>
-            <p>The ZEP token will ensure that ZeppelinOS users receive the upgrades they need. Projects can use ZEP to signal their support for proposed upgrades.</p>
+            <p id="trigger">The ZEP token will ensure that ZeppelinOS users receive the upgrades they need. Projects can use ZEP to signal their support for proposed upgrades.</p>
             </br>
             <div class="col s12 centered hide-on-med-and-up">
               <img src="./img/animation/imagen2_mobile.svg"/>
@@ -138,10 +146,11 @@
             </form>
           </div>
           <div class="col s12 m6 l6 right-aligned hide-on-small-only">
-            <img src="./img/animation/imagen1_3.svg"/>
+            <img id="image1" src="./img/animation/imagen1_3.svg"/>
+            <!-- <img src="./img/animation/imagen1_3.svg"/>
             </br>
             </br>
-            <img src="./img/animation/imagen2.svg"/>
+            <img src="./img/animation/imagen2.svg"/> -->
           </div>
         </div>
         <div class="row">
