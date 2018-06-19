@@ -41,24 +41,33 @@ $( document ).ready(function(){
 
 
 	var images = [
-		"./img/animation/imagen1_1.svg",
-		"./img/animation/imagen1_2.svg",
-		"./img/animation/imagen1_3.svg",
-		"./img/animation/imagen1_4.svg",
+		"./img/animation/imagen1_1.1.svg",
+		"./img/animation/imagen1_1.2.svg",
+		"./img/animation/imagen1_1.3.svg",
+		"./img/animation/imagen1_1.4.svg",
+		"./img/animation/imagen1_2.1.svg",
+		"./img/animation/imagen1_2.2.svg",
+		"./img/animation/imagen1_2.3.svg",
+		"./img/animation/imagen1_2.4.svg",
+		"./img/animation/imagen1_3.1.svg",
+		"./img/animation/imagen1_3.2.svg",
+		"./img/animation/imagen1_3.3.svg",
+		"./img/animation/imagen1_4.1.svg",
 		"./img/animation/imagen2.svg",
 	];
 	// TweenMax can tween any property of any object. We use this object to cycle through the array
 	var obj = {curImg: 0};
 
 	// create tween
-	var tween = TweenMax.to(obj, 0.5,
-		{
+	var tween = TweenMax.to(obj, 0.5, {
 			curImg: images.length - 1,	// animate propery curImg to number of images
-			roundProps: "curImg",				// only integers so it can be used as an array index
-			repeat: 0,									// repeat 1 time
-			ease: Linear.easeNone,			// show every image the same ammount of time
+			roundProps: "curImg",
+			repeat: 0,
+			ease: Linear.easeNone,
 			onUpdate: function () {
-			  $("#image1").attr("src", images[obj.curImg]); // set the image source
+				$("#image1").addClass("hidden");
+			  $("#image1").attr("src", images[obj.curImg]);
+			  $("#image1").removeClass("hidden");
 			}
 		}
 	);
