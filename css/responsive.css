@@ -57,6 +57,7 @@
 	  top: 50px;
 	  margin-bottom: 30px;
 	}
+	.security img { max-width: 100%!important; }
 }
 
 @media (min-width: 982px) and (max-width: 1150px) {

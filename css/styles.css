@@ -291,8 +291,8 @@ blockquote {
 	margin: 2rem auto;
 }
 .security img {
-	max-width: 410px;
-  margin-top: 4rem;
+	max-width: 433px;
+  margin-top: 1rem;
   margin-bottom: 3rem;
 }
 
@@ -473,7 +473,7 @@ footer h3 img {
 #image1 {
   left: inherit!important;
   margin-left: 30px !important;
-  width: 389px;
+  width: 500px;
   position: relative;
   bottom: -158px;
 }
