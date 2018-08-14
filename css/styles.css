@@ -393,6 +393,28 @@ iframe {
   max-width: 443px;
 }
 
+/*INVESTORS*/
+.investors {
+  background: linear-gradient(125deg, #283036, #111314);
+  height: auto;
+  max-height: 850px;
+  overflow: hidden;
+}
+.investors .first-p {
+  margin-bottom: 3rem;
+}
+
+.investors .second-p {
+  margin-top: 120px;
+}
+.investors h1 {
+  max-width: 431px;
+  margin-top: 2rem;
+}
+.investors p {
+  max-width: 514px;
+}
+
 /*START*/
 .start {
 	background-image: linear-gradient(282deg, #5c8ee4, #64cdea);
