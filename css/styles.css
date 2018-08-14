@@ -217,6 +217,28 @@ nav .sidenav-trigger {
   border: solid transparent;
 }
 
+/*TOKEN*/
+.token {
+  background: linear-gradient(125deg, #283036, #111314);
+  height: auto;
+  max-height: 850px;
+  overflow: hidden;
+}
+.token .first-p {
+  margin-bottom: 3rem;
+}
+
+.token .second-p {
+  margin-top: 120px;
+}
+.token h1 {
+  max-width: 431px;
+  margin-top: 2rem;
+}
+.token p {
+  max-width: 514px;
+}
+
 /*HERO*/
 .hero {
 	background: linear-gradient(125deg, #283036, #111314);
