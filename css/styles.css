@@ -283,6 +283,18 @@ form .transparent-btn img{
   margin-right: 3px;
 }
 
+.token .social-media-box {
+  margin-top: 3rem;
+}
+
+.social-media-box img {
+  margin: 0 0.5rem;
+  opacity: 0.5;
+}
+
+.social-media-box a :hover {
+  opacity: 1;
+}
 
 /*HERO*/
 .hero {
