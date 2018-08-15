@@ -221,23 +221,68 @@ nav .sidenav-trigger {
 .token {
   background: linear-gradient(125deg, #283036, #111314);
   height: auto;
-  max-height: 850px;
   overflow: hidden;
-}
-.token .first-p {
-  margin-bottom: 3rem;
+  text-align: center;
 }
 
-.token .second-p {
-  margin-top: 120px;
+.token img {
+    max-width: 200px;
 }
+
+.token.row {
+  padding: 5rem 0;
+}
+
 .token h1 {
-  max-width: 431px;
+  font-family: 'Roboto';
+  font-weight: normal !important;
+  font-size: 3.5em !important;
+  text-align: center;
   margin-top: 2rem;
 }
-.token p {
+.token h5 {
+  text-align: center;
+  max-width: none !important;
   max-width: 514px;
 }
+
+form {
+  display: flex;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  padding: 0 0 0 25px;
+  border-radius: 30px;
+  border: solid 2px #67eaec;
+  margin-top: 20px;
+  width: 30rem;
+  height: 3rem;
+  max-width: 100%;
+}
+input, input[type="email"]::-webkit-input-placeholder {
+  color: #67eaec;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+input[type="email"] {
+  margin: 0 !important;
+  height: 38px !important;
+  border: solid transparent !important;
+  box-shadow: none !important;
+}
+form .transparent-btn{
+  padding: 0 3px;
+}
+form .transparent-btn img{
+  height: 22px;
+  margin-top: 7px;
+  margin-right: 3px;
+}
+
 
 /*HERO*/
 .hero {
@@ -440,43 +485,6 @@ iframe {
 .white-button:hover {
 	color: white;
 	background-color: transparent;
-}
-form {
-	display: flex;
-	background-color: transparent;
-	font-family: 'Roboto';
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  text-align: center;
-  color: white;
-  padding: 0 0 0 25px;
-  border-radius: 30px;
-  border: solid 2px #67eaec;
-  margin-top: 20px;
-  width: 415px;
-  height: 47px;
-  max-width: 100%;
-}
-input, input[type="email"]::-webkit-input-placeholder {
-  color: #67eaec;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-}
-input[type="email"] {
-	margin: 0 !important;
-  height: 38px !important;
-  border: solid transparent !important;
-  box-shadow: none !important;
-}
-form .transparent-btn{
-	padding: 0 3px;
-}
-form .transparent-btn img{
-	height: 22px;
-  margin-top: 7px;
-  margin-right: 3px;
 }
 
 /*FOOTER*/

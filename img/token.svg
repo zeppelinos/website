@@ -1,107 +1,182 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="121px" height="48px" viewBox="0 0 121 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>token</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M0.0637058824,23.9611429 C0.0637058824,37.1054066 10.7581765,47.7607033 23.9507647,47.7607033 C37.1433529,47.7607033 47.838,37.1054066 47.838,23.9611429 C47.838,10.8168791 37.1433529,0.161406593 23.9507647,0.161406593 C10.7581765,0.161406593 0.0637058824,10.8168791 0.0637058824,23.9611429" id="path-1"></path>
-        <linearGradient x1="14.6447057%" y1="85.3552943%" x2="85.3552918%" y2="14.6447082%" id="linearGradient-3">
-            <stop stop-color="#5B8EE4" offset="0%"></stop>
-            <stop stop-color="#67E9EB" offset="100%"></stop>
-        </linearGradient>
-        <polygon id="path-4" points="0.480705882 0.0838681319 0.480705882 4.85520879 10.8199412 4.85520879 0.03 23.2228571 0.0301764706 23.223033 6.39970588 23.223033 19.9124118 23.223033 19.9124118 18.4261978 9.21247059 18.4261978 17.1705882 4.85520879 19.9831765 0.0838681319 19.983 0.0838681319"></polygon>
-        <linearGradient x1="-4.09819321%" y1="96.478267%" x2="104.098177%" y2="3.52100726%" id="linearGradient-6">
-            <stop stop-color="#5B8EE4" offset="0%"></stop>
-            <stop stop-color="#67E9EB" offset="100%"></stop>
-        </linearGradient>
-        <polygon id="path-7" points="1.15711765 0.0152967033 0.0714705882 1.86391209 4.58823529 1.86391209 5.67211765 0.0152967033"></polygon>
-        <linearGradient x1="16.717017%" y1="150.461525%" x2="83.2828292%" y2="-50.4704879%" id="linearGradient-9">
-            <stop stop-color="#5B8EE4" offset="0%"></stop>
-            <stop stop-color="#67E9EB" offset="100%"></stop>
-        </linearGradient>
-        <polygon id="path-10" points="1.17952941 0.0152967033 0.0937058824 1.86391209 4.61047059 1.86391209 5.69452941 0.0152967033"></polygon>
-        <linearGradient x1="16.7173782%" y1="150.463846%" x2="83.2826798%" y2="-50.4729561%" id="linearGradient-12">
-            <stop stop-color="#5B8EE4" offset="0%"></stop>
-            <stop stop-color="#67E9EB" offset="100%"></stop>
-        </linearGradient>
-        <polygon id="path-13" points="1.11141176 0.159648352 0.0307058824 1.99894505 0.0307058824 1.99912088 4.55064706 1.99912088 5.62905882 0.159648352"></polygon>
-        <linearGradient x1="16.7545937%" y1="150.805362%" x2="83.2453058%" y2="-50.8149159%" id="linearGradient-15">
-            <stop stop-color="#5B8EE4" offset="0%"></stop>
-            <stop stop-color="#67E9EB" offset="100%"></stop>
-        </linearGradient>
-        <polygon id="path-16" points="1.13364706 0.159648352 0.0531176471 1.99894505 0.0531176471 1.99912088 4.57288235 1.99912088 5.65182353 0.159648352"></polygon>
-        <linearGradient x1="16.7543516%" y1="150.807695%" x2="83.2424352%" y2="-50.8173227%" id="linearGradient-18">
-            <stop stop-color="#5B8EE4" offset="0%"></stop>
-            <stop stop-color="#67E9EB" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="zOS-web" transform="translate(-660.000000, -149.000000)">
-            <g id="token" transform="translate(661.000000, 149.000000)">
-                <g id="Group-34" transform="translate(36.000000, 0.000000)">
-                    <g id="Group-3" transform="translate(0.000000, 0.077714)">
-                        <mask id="mask-2" fill="white">
-                            <use xlink:href="#path-1"></use>
-                        </mask>
-                        <g id="Clip-2"></g>
-                        <path d="M0.0637058824,23.9611429 C0.0637058824,37.1054066 10.7581765,47.7607033 23.9507647,47.7607033 C37.1433529,47.7607033 47.838,37.1054066 47.838,23.9611429 C47.838,10.8168791 37.1433529,0.161406593 23.9507647,0.161406593 C10.7581765,0.161406593 0.0637058824,10.8168791 0.0637058824,23.9611429" id="Fill-1" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
-                    </g>
-                    <g id="Group-18" transform="translate(4.588235, 4.824967)">
-                        <path d="M38.6114824,19.2138725 C38.6114824,8.62204835 29.9933647,0.0354989011 19.3626,0.0354989011 C8.73201176,0.0354989011 0.113717647,8.62204835 0.113717647,19.2138725 C0.113717647,29.8055209 8.73201176,38.3920703 19.3626,38.3920703 C29.9933647,38.3920703 38.6114824,29.8055209 38.6114824,19.2138725" id="Fill-4" fill="#F5FFFF"></path>
-                        <path d="M19.3625824,0.0354637363 C13.9322294,0.0354637363 9.03005294,2.27968352 5.53046471,5.88372747 C8.99440588,2.54482637 13.7095235,0.486628571 18.9099353,0.486628571 C29.5405235,0.486628571 38.1584647,9.07317802 38.1584647,19.665178 C38.1584647,24.846189 36.0930529,29.5440352 32.7417,32.9951121 C36.3589941,29.5083429 38.6114647,24.6244747 38.6114647,19.2138374 C38.6114647,8.62183736 29.9933471,0.0354637363 19.3625824,0.0354637363" id="Fill-6" fill="#64F2EE"></path>
-                        <polygon id="Fill-8" fill="#64F2EE" points="26.0596765 12.8778374 28.8722647 8.10632088 10.4672647 8.10632088 9.36979412 8.10632088 9.36979412 12.8778374 19.7093824 12.8778374 8.91891176 31.2454857 15.2887941 31.2454857 28.8015 31.2454857 28.8015 26.4490022 18.1015588 26.4490022"></polygon>
-                        <polygon id="Fill-10" fill="#64F2EE" points="29.1832412 19.2049407 30.2674765 17.3563253 25.7524765 17.3563253 24.6661235 19.2049407"></polygon>
-                        <polygon id="Fill-12" fill="#64F2EE" points="14.7602118 17.356378 10.2450353 17.356378 9.15921176 19.2049934 13.6759765 19.2049934"></polygon>
-                        <polygon id="Fill-14" fill="#64F2EE" points="28.6360765 20.1381451 24.1180765 20.1381451 23.0373706 21.9777934 27.5574882 21.9777934"></polygon>
-                        <polygon id="Fill-16" fill="#64F2EE" points="8.61114706 20.1381451 7.53026471 21.9777934 12.0502059 21.9777934 13.1291471 20.1381451"></polygon>
-                    </g>
-                    <g id="Group-21" transform="translate(13.941176, 12.385407)">
-                        <mask id="mask-5" fill="white">
-                            <use xlink:href="#path-4"></use>
-                        </mask>
-                        <g id="Clip-20"></g>
-                        <polygon id="Fill-19" fill="url(#linearGradient-6)" mask="url(#mask-5)" points="0.480705882 0.0838681319 0.480705882 4.85520879 10.8199412 4.85520879 0.03 23.2228571 0.0301764706 23.223033 6.39970588 23.223033 19.9124118 23.223033 19.9124118 18.4261978 9.21247059 18.4261978 17.1705882 4.85520879 19.9831765 0.0838681319 19.983 0.0838681319"></polygon>
-                    </g>
-                    <g id="Group-24" transform="translate(29.647059, 21.704088)">
-                        <mask id="mask-8" fill="white">
-                            <use xlink:href="#path-7"></use>
-                        </mask>
-                        <g id="Clip-23"></g>
-                        <polygon id="Fill-22" fill="url(#linearGradient-9)" mask="url(#mask-8)" points="1.15711765 0.0152967033 0.0714705882 1.86391209 4.58823529 1.86391209 5.67211765 0.0152967033"></polygon>
-                    </g>
-                    <g id="Group-27" transform="translate(14.117647, 21.704088)">
-                        <mask id="mask-11" fill="white">
-                            <use xlink:href="#path-10"></use>
-                        </mask>
-                        <g id="Clip-26"></g>
-                        <polygon id="Fill-25" fill="url(#linearGradient-12)" mask="url(#mask-11)" points="1.17952941 0.0152967033 0.0937058824 1.86391209 4.61047059 1.86391209 5.69452941 0.0152967033"></polygon>
-                    </g>
-                    <g id="Group-30" transform="translate(28.058824, 24.341451)">
-                        <mask id="mask-14" fill="white">
-                            <use xlink:href="#path-13"></use>
-                        </mask>
-                        <g id="Clip-29"></g>
-                        <polygon id="Fill-28" fill="url(#linearGradient-15)" mask="url(#mask-14)" points="1.11141176 0.159648352 0.0307058824 1.99894505 0.0307058824 1.99912088 4.55064706 1.99912088 5.62905882 0.159648352"></polygon>
-                    </g>
-                    <g id="Group-33" transform="translate(12.529412, 24.341451)">
-                        <mask id="mask-17" fill="white">
-                            <use xlink:href="#path-16"></use>
-                        </mask>
-                        <g id="Clip-32"></g>
-                        <polygon id="Fill-31" fill="url(#linearGradient-18)" mask="url(#mask-17)" points="1.13364706 0.159648352 0.0531176471 1.99894505 0.0531176471 1.99912088 4.57288235 1.99912088 5.65182353 0.159648352"></polygon>
-                    </g>
-                </g>
-                <g id="Group-25" transform="translate(93.000000, 18.000000)" fill-rule="nonzero" stroke-linecap="square">
-                    <path d="M1.1984127,6.5 L25.8015873,6.5" id="Line-3" stroke="#4CC5FF"></path>
-                    <path d="M0,1 L8,1" id="Line-3-Copy" stroke="#67EAEC"></path>
-                    <path d="M0,12 L8,12" id="Line-3-Copy-2" stroke="#5C8EE4"></path>
-                </g>
-                <g id="Group-25-Copy" transform="translate(13.000000, 24.500000) scale(-1, 1) translate(-13.000000, -24.500000) translate(0.000000, 18.000000)" fill-rule="nonzero" stroke-linecap="square">
-                    <path d="M1.1984127,6.5 L25.8015873,6.5" id="Line-3" stroke="#4CC5FF"></path>
-                    <path d="M0,1 L8,1" id="Line-3-Copy" stroke="#67EAEC"></path>
-                    <path d="M0,12 L8,12" id="Line-3-Copy-2" stroke="#5C8EE4"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 177.9 71.4" style="enable-background:new 0 0 177.9 71.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill:#FFFFFF;}
+	.st2{mask:url(#mask-2);fill:url(#Fill-1_1_);}
+	.st3{fill:#F5FFFF;}
+	.st4{fill:#64F2EE;}
+	.st5{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st6{mask:url(#mask-5);fill:url(#Fill-19_1_);}
+	.st7{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st8{mask:url(#mask-8);fill:url(#Fill-22_1_);}
+	.st9{filter:url(#Adobe_OpacityMaskFilter_3_);}
+	.st10{mask:url(#mask-11);fill:url(#Fill-25_1_);}
+	.st11{filter:url(#Adobe_OpacityMaskFilter_4_);}
+	.st12{mask:url(#mask-14);fill:url(#Fill-28_1_);}
+	.st13{filter:url(#Adobe_OpacityMaskFilter_5_);}
+	.st14{mask:url(#mask-17);fill:url(#Fill-31_1_);}
+	.st15{fill:none;stroke:#4CC5FF;stroke-linecap:square;}
+	.st16{fill:none;stroke:#67EAEC;stroke-linecap:square;}
+	.st17{fill:none;stroke:#5C8EE4;stroke-linecap:square;}
+</style>
+<title>token</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="zOS-web" transform="translate(-660.000000, -149.000000)">
+		<g id="token" transform="translate(661.000000, 149.000000)">
+			<g id="Group-34" transform="translate(36.000000, 0.000000)">
+				<g id="Group-3" transform="translate(0.000000, 0.077714)">
+					<g id="Clip-2">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="16.8" y="-0.1" width="71.7" height="71.4">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="16.8" y="-0.1" width="71.7" height="71.4" id="mask-2">
+						<g class="st0">
+							<path id="path-1" class="st1" d="M16.8,35.6c0,19.7,16,35.7,35.8,35.7s35.8-16,35.8-35.7S72.4-0.1,52.6-0.1
+								S16.8,15.9,16.8,35.6"/>
+						</g>
+					</mask>
+					
+						<linearGradient id="Fill-1_1_" gradientUnits="userSpaceOnUse" x1="-240.6124" y1="447.1022" x2="-239.5517" y2="448.1629" gradientTransform="matrix(47.7743 0 0 -47.5993 11522.3809 21342.6152)">
+						<stop  offset="0" style="stop-color:#5B8EE4"/>
+						<stop  offset="1" style="stop-color:#67E9EB"/>
+					</linearGradient>
+					<path id="Fill-1" class="st2" d="M16.8,35.6c0,19.7,16,35.7,35.8,35.7s35.8-16,35.8-35.7S72.4-0.1,52.6-0.1
+						S16.8,15.9,16.8,35.6"/>
+				</g>
+				<g id="Group-18" transform="translate(4.588235, 4.824967)">
+					<path id="Fill-4" class="st3" d="M76.9,30.9C76.9,15,64,2.1,48,2.1C32.1,2.1,19.2,15,19.2,30.9c0,15.9,12.9,28.8,28.9,28.8
+						C64,59.6,76.9,46.8,76.9,30.9"/>
+					<path id="Fill-6" class="st4" d="M48,2.1c-8.1,0-15.5,3.4-20.7,8.8c5.2-5,12.3-8.1,20.1-8.1c15.9,0,28.9,12.9,28.9,28.8
+						c0,7.8-3.1,14.8-8.1,20c5.4-5.2,8.8-12.6,8.8-20.7C76.9,15,64,2.1,48,2.1"/>
+					<polygon id="Fill-8" class="st4" points="58.1,21.4 62.3,14.2 34.7,14.2 33.1,14.2 33.1,21.4 48.6,21.4 32.4,48.9 41.9,48.9 
+						62.2,48.9 62.2,41.7 46.1,41.7 					"/>
+					<polygon id="Fill-10" class="st4" points="62.8,30.9 64.4,28.1 57.6,28.1 56,30.9 					"/>
+					<polygon id="Fill-12" class="st4" points="41.1,28.1 34.4,28.1 32.7,30.9 39.5,30.9 					"/>
+					<polygon id="Fill-14" class="st4" points="62,32.3 55.2,32.3 53.6,35 60.3,35 					"/>
+					<polygon id="Fill-16" class="st4" points="31.9,32.3 30.3,35 37.1,35 38.7,32.3 					"/>
+				</g>
+				<g id="Group-21" transform="translate(13.941176, 12.385407)">
+					<g id="Clip-20">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="23.7" y="6" width="29.9" height="34.7">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="23.7" y="6" width="29.9" height="34.7" id="mask-5">
+						<g class="st5">
+							<polygon id="path-4" class="st1" points="24.4,6 24.4,13.1 39.9,13.1 23.7,40.7 23.7,40.7 33.3,40.7 53.5,40.7 53.5,33.5 
+								37.5,33.5 49.4,13.1 53.6,6 53.6,6 							"/>
+						</g>
+					</mask>
+					
+						<linearGradient id="Fill-19_1_" gradientUnits="userSpaceOnUse" x1="-247.9052" y1="425.804" x2="-246.2822" y2="427.1984" gradientTransform="matrix(19.9532 0 0 -23.1392 4969.1079 9892.3594)">
+						<stop  offset="0" style="stop-color:#5B8EE4"/>
+						<stop  offset="1" style="stop-color:#67E9EB"/>
+					</linearGradient>
+					<polygon id="Fill-19" class="st6" points="24.4,6 24.4,13.1 39.9,13.1 23.7,40.7 23.7,40.7 33.3,40.7 53.5,40.7 53.5,33.5 
+						37.5,33.5 49.4,13.1 53.6,6 53.6,6 					"/>
+				</g>
+				<g id="Group-24" transform="translate(29.647059, 21.704088)">
+					<g id="Clip-23">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="31.6" y="10.5" width="8.4" height="2.8">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="31.6" y="10.5" width="8.4" height="2.8" id="mask-8">
+						<g class="st7">
+							<polygon id="path-7" class="st1" points="33.3,10.5 31.6,13.3 38.4,13.3 40,10.5 							"/>
+						</g>
+					</mask>
+					
+						<linearGradient id="Fill-22_1_" gradientUnits="userSpaceOnUse" x1="-232.072" y1="218.4616" x2="-231.0735" y2="221.4756" gradientTransform="matrix(5.6006 0 0 -1.8486 1332.7921 418.5402)">
+						<stop  offset="0" style="stop-color:#5B8EE4"/>
+						<stop  offset="1" style="stop-color:#67E9EB"/>
+					</linearGradient>
+					<polygon id="Fill-22" class="st8" points="33.3,10.5 31.6,13.3 38.4,13.3 40,10.5 					"/>
+				</g>
+				<g id="Group-27" transform="translate(14.117647, 21.704088)">
+					<g id="Clip-26">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_3_" filterUnits="userSpaceOnUse" x="23.9" y="10.5" width="8.4" height="2.8">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="23.9" y="10.5" width="8.4" height="2.8" id="mask-11">
+						<g class="st9">
+							<polygon id="path-10" class="st1" points="25.5,10.5 23.9,13.3 30.7,13.3 32.3,10.5 							"/>
+						</g>
+					</mask>
+					
+						<linearGradient id="Fill-25_1_" gradientUnits="userSpaceOnUse" x1="-217.9283" y1="218.4616" x2="-216.9298" y2="221.4756" gradientTransform="matrix(5.6008 0 0 -1.8486 1245.8855 418.5402)">
+						<stop  offset="0" style="stop-color:#5B8EE4"/>
+						<stop  offset="1" style="stop-color:#67E9EB"/>
+					</linearGradient>
+					<polygon id="Fill-25" class="st10" points="25.5,10.5 23.9,13.3 30.7,13.3 32.3,10.5 					"/>
+				</g>
+				<g id="Group-30" transform="translate(28.058824, 24.341451)">
+					<g id="Clip-29">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_4_" filterUnits="userSpaceOnUse" x="30.8" y="12.1" width="8.4" height="2.8">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="30.8" y="12.1" width="8.4" height="2.8" id="mask-14">
+						<g class="st11">
+							<polygon id="path-13" class="st1" points="32.4,12.1 30.8,14.8 30.8,14.8 37.6,14.8 39.2,12.1 							"/>
+						</g>
+					</mask>
+					
+						<linearGradient id="Fill-28_1_" gradientUnits="userSpaceOnUse" x1="-230.611" y1="213.9987" x2="-229.6137" y2="217.023" gradientTransform="matrix(5.5984 0 0 -1.8395 1323.2285 409.8574)">
+						<stop  offset="0" style="stop-color:#5B8EE4"/>
+						<stop  offset="1" style="stop-color:#67E9EB"/>
+					</linearGradient>
+					<polygon id="Fill-28" class="st12" points="32.4,12.1 30.8,14.8 30.8,14.8 37.6,14.8 39.2,12.1 					"/>
+				</g>
+				<g id="Group-33" transform="translate(12.529412, 24.341451)">
+					<g id="Clip-32">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_5_" filterUnits="userSpaceOnUse" x="23" y="12.1" width="8.4" height="2.8">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="23" y="12.1" width="8.4" height="2.8" id="mask-17">
+						<g class="st13">
+							<polygon id="path-16" class="st1" points="24.7,12.1 23,14.8 23,14.8 29.8,14.8 31.4,12.1 							"/>
+						</g>
+					</mask>
+					
+						<linearGradient id="Fill-31_1_" gradientUnits="userSpaceOnUse" x1="-216.4693" y1="213.9987" x2="-215.4719" y2="217.023" gradientTransform="matrix(5.5987 0 0 -1.8395 1236.4028 409.8574)">
+						<stop  offset="0" style="stop-color:#5B8EE4"/>
+						<stop  offset="1" style="stop-color:#67E9EB"/>
+					</linearGradient>
+					<polygon id="Fill-31" class="st14" points="24.7,12.1 23,14.8 23,14.8 29.8,14.8 31.4,12.1 					"/>
+				</g>
+			</g>
+			<g id="Group-25" transform="translate(93.000000, 18.000000)">
+				<path id="Line-3" class="st15" d="M47,18.4h36.9"/>
+				<path id="Line-3-Copy" class="st16" d="M45.2,10.1h12"/>
+				<path id="Line-3-Copy-2" class="st17" d="M45.2,26.6h12"/>
+			</g>
+			
+				<g id="Group-25-Copy" transform="translate(13.000000, 24.500000) scale(-1, 1) translate(-13.000000, -24.500000) translate(0.000000, 18.000000)">
+				<path id="Line-3_1_" class="st15" d="M-9.9,18.4H27"/>
+				<path id="Line-3-Copy_1_" class="st16" d="M-11.7,10.1h12"/>
+				<path id="Line-3-Copy-2_1_" class="st17" d="M-11.7,26.6h12"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
