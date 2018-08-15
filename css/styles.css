@@ -90,7 +90,7 @@ h5 {
   font-family: 'Roboto Mono', monospace;
   font-size: 1.1em !important;
   line-height: 1.7 !important;
-  margin: 1rem 0 0 0 !important;
+  margin: 1rem 0 0 0;
   opacity: 0.9 !important;
   color: #67eaec;
   font-weight: 600 !important;
@@ -243,7 +243,8 @@ nav .sidenav-trigger {
 .token h5 {
   text-align: center;
   max-width: none !important;
-  max-width: 514px;
+  font-size: 1.25em !important;
+  margin-top: 0rem;
 }
 
 form {
