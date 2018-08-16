@@ -236,13 +236,18 @@ nav .sidenav-trigger {
 .token h1 {
   font-family: 'Roboto';
   font-weight: normal !important;
+  line-height: 1.1 !important;
   font-size: 3.5em !important;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem !important
 }
+
 .token h5 {
   text-align: center;
-  max-width: none !important;
+  max-width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.25em !important;
   margin-top: 0rem;
 }
@@ -251,41 +256,48 @@ form {
   display: flex;
   background-color: transparent;
   font-family: 'Roboto';
-  font-size: 12px;
+  font-size: 2em !important;
   font-weight: 600;
   text-align: center;
   color: white;
-  padding: 0 0 0 25px;
+  padding: 0 0 0 1.5rem;
   border-radius: 30px;
-  border: solid 2px #67eaec;
-  margin-top: 20px;
-  width: 30rem;
+  border: solid 1px #67eaec;
+  margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35rem;
   height: 3rem;
   max-width: 100%;
 }
 input, input[type="email"]::-webkit-input-placeholder {
   color: #67eaec;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.8px;
+  font-size: 1em;
+  font-weight: 400;
 }
 input[type="email"] {
   margin: 0 !important;
   height: 38px !important;
+  font-size: 1em;
   border: solid transparent !important;
   box-shadow: none !important;
 }
+
+input#mce-EMAIL.form-email {
+  border: 2 !important;
+}
+
 form .transparent-btn{
-  padding: 0 3px;
+  padding: 0 2px;
 }
 form .transparent-btn img{
-  height: 22px;
-  margin-top: 7px;
-  margin-right: 3px;
+  height: 26px;
+  margin-top: 4px;
+  margin-right: 2px;
 }
 
 .token .social-media-box {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .social-media-box img {
