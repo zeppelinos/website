@@ -40,6 +40,9 @@
 	}
 	.basil-img { margin-bottom: 100px; }
 	.projects-title { margin-top: 5rem; }
+	#sponsors {max-width: 96%;}
+	#sponsors div {height: 100px; width: 150px;}
+	#sponsors img {max-width: 100px; max-height: 60%;}
 }
 
 @media (min-width: 600px) and (max-width: 982px) {
