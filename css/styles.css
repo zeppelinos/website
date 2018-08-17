@@ -550,7 +550,7 @@ iframe {
 	min-height: auto;
 }
 .footer h3 {
-	margin: 11px;
+	margin: 1rem;
 }
 .footer h3:hover {
   color: #67EAEC;
@@ -559,7 +559,7 @@ iframe {
 	margin: 11px 0;
 }
 .footer img {
-	margin: 10px 0;
+	margin: 1rem 0 !important;
 }
 footer {
 	background-color: #131313;
@@ -574,6 +574,7 @@ footer h3 img {
 	top: 3px;
   position: relative;
   padding: 0 10px;
+  margin: 1rem 0;
 }
 
 
