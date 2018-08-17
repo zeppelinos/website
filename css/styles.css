@@ -467,7 +467,6 @@ iframe {
 .investors {
   background: linear-gradient(125deg, #283036, #111314);
   height: auto;
-  max-height: 850px;
   overflow: hidden;
 }
 .investors .first-p {
@@ -483,6 +482,32 @@ iframe {
 }
 .investors p {
   max-width: 514px;
+}
+
+/*SPONSORS*/
+
+#sponsors {
+  margin-bottom: 4rem;
+  margin-top: 30px;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sponsors-title {
+  margin-top: 9rem;
+}
+#sponsors div {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#sponsors img {
+  max-width: 180px;
+  max-height: 50%;
+  margin: 20px auto;
+  display: block;
+  text-align: center;
 }
 
 /*START*/
