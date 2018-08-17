@@ -473,17 +473,11 @@ iframe {
   background: linear-gradient(125deg, #283036, #111314);
   height: auto;
   overflow: hidden;
+  padding-top: 3rem;
 }
-.investors .first-p {
-  margin-bottom: 3rem;
-}
-
-.investors .second-p {
-  margin-top: 120px;
-}
-.investors h1 {
+#investors h1 {
   max-width: 431px;
-  margin-top: 2rem;
+  text-align: center !important;
 }
 .investors p {
   max-width: 514px;
@@ -493,13 +487,14 @@ iframe {
 
 #sponsors {
   margin-bottom: 4rem;
-  margin-top: 30px;
+  margin-top: 3rem;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-.sponsors-title {
-  margin-top: 9rem;
+.sponsors-title h1{
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
 }
 #sponsors div {
   height: 100px;
@@ -507,6 +502,7 @@ iframe {
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 1rem;
+
 }
 #sponsors img {
   max-width: 150px;
