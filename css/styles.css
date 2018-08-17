@@ -107,6 +107,11 @@ nav {
 .brand-logo img {
 	height: 1.5rem;
 }
+.brand-logo.zeppelin img {
+  height: 1rem;
+  margin-left: 140px;
+  margin-bottom: 4px;
+}
 nav .empty-button {
 	margin-top: 20px;
   height: 27px;
