@@ -152,7 +152,7 @@ nav .sidenav-trigger {
   height: 70px !important;
 }
 #mobile-nav li.small-li {
-  height: 30px !important;
+  height: 2.5rem !important;
 }
 #mobile-nav li.button-li {
   display: flex;
