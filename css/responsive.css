@@ -8,6 +8,7 @@
 	.hero { max-height: 1165px; min-height: 100vh; }
 	.hero img { width: 70%; margin-top: 40px; }
 	.hero .fill-button {font-size: 1em; padding: 0.6rem 4rem; }
+	form .transparent-btn img {height: 27px; margin-top: 4px; margin-right: 1px;}
 	.features {padding: 2rem 0; }
 	.features .flex { flex-direction: column; }
 	.features .flex div { width: inherit; margin-bottom: 1rem; margin-top: 2rem; }

@@ -242,23 +242,14 @@ nav .sidenav-trigger {
   padding: 5rem 0;
 }
 
-.token h1 {
-  font-family: 'Roboto';
-  font-weight: normal !important;
-  line-height: 1.1 !important;
-  font-size: 3.5em !important;
-  text-align: center;
-  margin-top: 1.5rem;
-  margin-bottom: 0.75rem !important
-}
-
 .token h5 {
   text-align: center;
   max-width: 80% !important;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.25em !important;
-  margin-top: 0rem;
+  font-size: 1.5em !important;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 form {
@@ -272,7 +263,7 @@ form {
   padding: 0 0 0 1.5rem;
   border-radius: 30px;
   border: solid 1px #67eaec;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   width: 35rem;
