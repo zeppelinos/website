@@ -377,7 +377,8 @@ blockquote {
 .security {
 	background: linear-gradient(136deg, #1f2529, #111314); 
 	height: auto;
-	padding-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .security .row {
 	margin: 2rem auto;
@@ -395,7 +396,7 @@ blockquote {
 	margin-top: 30px;
 }
 .projects-title {
-  margin-top: 9rem;
+  margin-top: 0rem;
 }
 #projects div {
   height: 100px;

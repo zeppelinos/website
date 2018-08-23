@@ -18,7 +18,7 @@
 	.start .button-box { flex-direction: column; align-items: start; }
 	.start .button-box a { margin-bottom: 30px; }
 	.start .button-box form { margin-left: 0; }
-	.security { padding-top: 1rem;}
+	.security { padding-top: 1rem; padding-bottom: 1rem; }
 	.security .hide-on-med-and-up img { max-width: 80%; }
 	.security h5 { margin-top: -15px !important; }
 	#projects div { width: 46%; }
@@ -41,7 +41,7 @@
 	  margin-bottom: 30px;
 	}
 	.basil-img { margin-bottom: 100px; }
-	.projects-title { margin-top: 5rem; }
+	.projects-title { margin-top: 0rem; }
 	#sponsors {max-width: 96%;}
 	#sponsors div {height: 100px; width: 150px;}
 	#sponsors img {max-width: 100px; max-height: 60%;}
