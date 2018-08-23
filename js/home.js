@@ -41,19 +41,19 @@ $( document ).ready(function(){
 
 
 	var images = [
-		"./img/animation/imagen1_1.1.svg",
-		"./img/animation/imagen1_1.2.svg",
-		"./img/animation/imagen1_1.3.svg",
-		"./img/animation/imagen1_1.4.svg",
-		"./img/animation/imagen1_2.1.svg",
-		"./img/animation/imagen1_2.2.svg",
-		"./img/animation/imagen1_2.3.svg",
-		"./img/animation/imagen1_2.4.svg",
-		"./img/animation/imagen1_3.1.svg",
-		"./img/animation/imagen1_3.2.svg",
-		"./img/animation/imagen1_3.3.svg",
-		"./img/animation/imagen1_4.1.svg",
-		"./img/animation/imagen2.svg",
+		"/img/animation/imagen1_1.1.svg",
+		"/img/animation/imagen1_1.2.svg",
+		"/img/animation/imagen1_1.3.svg",
+		"/img/animation/imagen1_1.4.svg",
+		"/img/animation/imagen1_2.1.svg",
+		"/img/animation/imagen1_2.2.svg",
+		"/img/animation/imagen1_2.3.svg",
+		"/img/animation/imagen1_2.4.svg",
+		"/img/animation/imagen1_3.1.svg",
+		"/img/animation/imagen1_3.2.svg",
+		"/img/animation/imagen1_3.3.svg",
+		"/img/animation/imagen1_4.1.svg",
+		"/img/animation/imagen2.svg",
 	];
 	// TweenMax can tween any property of any object. We use this object to cycle through the array
 	var obj = {curImg: 0};
