@@ -228,14 +228,17 @@ nav .sidenav-trigger {
 
 /*TOKEN*/
 .token {
-  background: linear-gradient(125deg, #283036, #111314);
   height: auto;
   overflow: hidden;
   text-align: center;
 }
 
-.token img {
-    max-width: 200px;
+#token .tokenimg img{
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 0;
 }
 
 .token.row {
@@ -247,8 +250,8 @@ nav .sidenav-trigger {
   max-width: 80% !important;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.5em !important;
-  margin-top: 2rem;
+  font-size: 1.3em !important;
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 
@@ -294,6 +297,11 @@ form .transparent-btn img{
   height: 26px;
   margin-top: 5px;
   margin-right: 2px;
+}
+
+#social img {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .token .social-media-box {
@@ -378,6 +386,7 @@ blockquote {
 	background: linear-gradient(136deg, #1f2529, #111314); 
 	height: auto;
 	padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .security .row {
 	margin: 2rem auto;
@@ -391,11 +400,10 @@ blockquote {
 /*PROJECTS*/
 
 #projects {
-	margin-bottom: 4rem;
 	margin-top: 30px;
 }
 .projects-title {
-  margin-top: 9rem;
+  margin-top: 0rem;
 }
 #projects div {
   height: 100px;
