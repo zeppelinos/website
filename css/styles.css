@@ -418,6 +418,10 @@ blockquote {
   display: block;
   text-align: center;
 }
+.coinbase {
+  height: 38% !important;
+  margin-top: 30px !important;
+}
 .livepeer {
 	height: 34% !important;
   margin-top: 34px !important;
@@ -426,9 +430,9 @@ blockquote {
 	height: 37% !important;
   margin-top: 23px !important;
 }
-.storj {
-	width: 65% !important;
-  margin-top: 18px !important;
+.paxos {
+	height: 45% !important;
+  margin-top: 24px !important;
 }
 .rcn {
 	width: 54% !important;
