@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/zeppelin_os_whitepaper.pdf"
+  to = "https://openzeppelin.com/assets/zeppelin_os_whitepaper.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "https://openzeppelin.com/sdk"
+  status = 301
